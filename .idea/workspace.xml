@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroCheckpointLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroCheckpointLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroEtiquetasLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroEtiquetasLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroLeitorLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroLeitorLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroPortalLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroPortalLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosGS1Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosGS1Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSpoolerLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSpoolerLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroCheckpointLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroCheckpointLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroEtiquetasLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroEtiquetasLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroLeitorLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroLeitorLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroPortalLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroPortalLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosGS1Logic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosGS1Logic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSpoolerLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSpoolerLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosGS1Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosGS1Steps.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Marinalessa&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ff6151e3-6e2e-47c9-b8df-28b85cb530a4" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ff6151e3-6e2e-47c9-b8df-28b85cb530a4" />
+        <option name="url" value="https://github.com/rastreabilidadebrasil/automation-tests.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZZnhah87YGLXY6Juy9hOPxQFuB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cucumber Java.Feature: Cadastros.executor": "Run",
+    "Cucumber Java.Feature: Impressoes.executor": "Run",
+    "Cucumber Java.Scenario: Associação de Recode.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Checkpoint.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Leitor.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Portal.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Spooler.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de impressora.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
+    "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
+    "Cucumber Java.Scenario: Impressao de Recode.executor": "Run",
+    "Cucumber Java.Scenario: Impressão Avulsa.executor": "Run",
+    "Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Scan Print.executor": "Run",
+    "JUnit.Runner (1).executor": "Run",
+    "JUnit.Runner (2).executor": "Run",
+    "JUnit.Runner (3).executor": "Run",
+    "JUnit.Runner (4).executor": "Run",
+    "JUnit.Runner (5).executor": "Run",
+    "JUnit.Runner.executor": "Run",
+    "Maven.Br.com.original [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Novabranch",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/macar/IdeaProjects/automation-tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\macar\IdeaProjects\banco-original\Drive" />
+      <recent name="C:\Users\macar\IdeaProjects\banco-original\Driver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\macar\IdeaProjects\banco-original\ArquivosUpload" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: Cadastros">
+    <configuration name="Feature: Cadastros" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Cadastros" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Cadastro de Checkpoint" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de Checkpoint$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Checkpoint$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Checkpoint" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Cadastro de Etiqueta por Agregação" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de Etiqueta por Agregação$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Etiqueta por Agregação$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Etiqueta por Agregação" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Cadastro de Etiqueta por Item" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de Etiqueta por Item$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Etiqueta por Item$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Etiqueta por Item" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Cadastro de Spooler" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de Spooler$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Spooler$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Spooler" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="banco-original" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="banco-original" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: Cadastros" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Checkpoint" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Etiqueta por Item" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Spooler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\macar\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="" />
+      <created>1702638589053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702638589053</updated>
+      <workItem from="1702638590224" duration="32961000" />
+      <workItem from="1702906811554" duration="20221000" />
+      <workItem from="1702987967631" duration="437000" />
+      <workItem from="1702988425739" duration="745000" />
+      <workItem from="1702989193695" duration="837000" />
+      <workItem from="1702990068857" duration="78000" />
+      <workItem from="1703007901367" duration="34970000" />
+      <workItem from="1704716938284" duration="65510000" />
+      <workItem from="1705319160798" duration="11648000" />
+      <workItem from="1705340938779" duration="2699000" />
+      <workItem from="1705406607510" duration="7761000" />
+      <workItem from="1705424555485" duration="2550000" />
+      <workItem from="1705428755306" duration="26588000" />
+    </task>
+    <task id="LOCAL-00001" summary="alterações com inclusão do rastro">
+      <option name="closed" value="true" />
+      <created>1702643486736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702643486736</updated>
+    </task>
+    <task id="LOCAL-00002" summary="inclusão da automação de login e cadastros">
+      <option name="closed" value="true" />
+      <created>1702906709504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702906709504</updated>
+    </task>
+    <task id="LOCAL-00003" summary="inclusão da automação de login e cadastros">
+      <option name="closed" value="true" />
+      <created>1702906736449</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702906736450</updated>
+    </task>
+    <task id="LOCAL-00004" summary="inclusão da automação de cadastro de Site">
+      <option name="closed" value="true" />
+      <created>1703010403162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703010403162</updated>
+    </task>
+    <task id="LOCAL-00005" summary="inclusão da automação de cadastro de Site">
+      <option name="closed" value="true" />
+      <created>1703010497692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703010497692</updated>
+    </task>
+    <task id="LOCAL-00006" summary="inclusão da automação de cadastro de impressoras&#10;inclusão do page do cadastro de Leitores">
+      <option name="closed" value="true" />
+      <created>1703166333869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703166333875</updated>
+    </task>
+    <task id="LOCAL-00007" summary="inclusão da automação de cadastro de impressoras&#10;inclusão do page do cadastro de Leitores">
+      <option name="closed" value="true" />
+      <created>1704717004202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704717004202</updated>
+    </task>
+    <task id="LOCAL-00008" summary="inclusão da automação de cadastro de impressoras&#10;inclusão do page, logic, steps e inclusão na feature do cadastro de Leitores">
+      <option name="closed" value="true" />
+      <created>1704741971138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704741971138</updated>
+    </task>
+    <task id="LOCAL-00009" summary="inclusão da automação de cadastro de Checkpoint, Etiqueta de Item, Etiqueta de agregação e cadastro de Spooler">
+      <option name="closed" value="true" />
+      <created>1704821009349</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704821009349</updated>
+    </task>
+    <task id="LOCAL-00010" summary="inclusão da automação de impressão avulsa, page, logic e step e inicio da impressão pendente page">
+      <option name="closed" value="true" />
+      <created>1705002893690</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705002893690</updated>
+    </task>
+    <task id="LOCAL-00011" summary="inclusão da automação de impressão recode">
+      <option name="closed" value="true" />
+      <created>1705411817624</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705411817625</updated>
+    </task>
+    <task id="LOCAL-00012" summary="inclusão da automação de impressão recode">
+      <option name="closed" value="true" />
+      <created>1705411908936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705411908936</updated>
+    </task>
+    <task id="LOCAL-00013" summary="inclusão do metodo selecionarCombo na classe Utils">
+      <option name="closed" value="true" />
+      <created>1705428877417</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705428877417</updated>
+    </task>
+    <task id="LOCAL-00014" summary="inclusão do metodo selecionarCombo na classe Utils">
+      <option name="closed" value="true" />
+      <created>1705434880604</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705434880604</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Criação das classes etiqueta de agregação Page, Logic e Step">
+      <option name="closed" value="true" />
+      <created>1705496957304</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705496957304</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
+      <option name="closed" value="true" />
+      <created>1705512915483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705512915483</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="alterações com inclusão do rastro" />
+    <MESSAGE value="inclusão da automação de login e cadastros" />
+    <MESSAGE value="inclusão da automação de cadastro de Site" />
+    <MESSAGE value="inclusão da automação de cadastro de impressoras&#10;inclusão do page do cadastro de Leitores" />
+    <MESSAGE value="inclusão da automação de cadastro de impressoras&#10;inclusão do page, logic, steps e inclusão na feature do cadastro de Leitores" />
+    <MESSAGE value="inclusão da automação de cadastro de Checkpoint, Etiqueta de Item, Etiqueta de agregação e cadastro de Spooler" />
+    <MESSAGE value="inclusão da automação de impressão avulsa, page, logic e step e inicio da impressão pendente page" />
+    <MESSAGE value="inclusão da automação de impressão recode" />
+    <MESSAGE value="inclusão do metodo selecionarCombo na classe Utils" />
+    <MESSAGE value="Criação das classes etiqueta de agregação Page, Logic e Step" />
+    <MESSAGE value="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Logic.Logic" memberName="driver" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="((Logic.Logic)((CadastroProdutosGS1Steps)this).logic).driver" custom="Logic.Logic,Steps.CadastroProdutosGS1Steps" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
