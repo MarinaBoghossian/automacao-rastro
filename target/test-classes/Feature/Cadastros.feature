@@ -62,6 +62,13 @@ Feature: Cadastros no Rastro app
     And clicar em novo e inserir as informacoes do novo portal
     Then o portal será cadastrado com sucesso
 
+  @cadastrousuario
+  Scenario: Cadastro de Usuario
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba Usuarios
+    And clicar em novo e inserir as informacoes do novo usuario
+    Then o usuario será cadastrado com sucesso
+
 
 
 
