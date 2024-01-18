@@ -69,6 +69,14 @@ Feature: Cadastros no Rastro app
     And clicar em novo e inserir as informacoes do novo usuario
     Then o usuario será cadastrado com sucesso
 
+  @cadastroimpressora
+  Scenario: Cadastro de Impressora
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba Impressoras
+    And clicar em novo e inserir as informacoes da nova impressora
+    Then a impressora será cadastrada com sucesso
+
+
 
 
 

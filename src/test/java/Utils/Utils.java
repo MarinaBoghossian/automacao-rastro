@@ -58,6 +58,12 @@ driver = new ChromeDriver();
 
 }
 
+	public void abrirNovaGuia (String url)  {
+
+		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
+		driver.get(url);
+		}
+
 public void validarTexto(By elemento, String texto) {
 	
 	

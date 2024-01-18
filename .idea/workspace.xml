@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroUsuarioStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroImpressorasLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroImpressorasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroImpressorasSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroUsuarioLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroUsuarioLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroUsuarioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroUsuarioPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CdastroUsuarioStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroUsuarioStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroUsuarioStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +79,7 @@
     "Cucumber Java.Scenario: Cadastro de Checkpoint.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Impressora.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Leitor.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Portal.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Spooler.executor": "Run",
@@ -127,7 +129,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Usuario">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Impressora">
     <configuration name="Feature: Cadastros" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
@@ -187,15 +189,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Cadastro de Etiqueta por Item" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Cadastro de Impressora" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Br.com.rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Etiqueta por Item$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Etiqueta por Item$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Etiqueta por Item" />
+      <option name="NAME_FILTER" value="^Cadastro de Impressora$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Impressora$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Impressora" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -242,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Impressora" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Usuario" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Checkpoint" />
         <item itemvalue="Cucumber Java.Feature: Cadastros" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Etiqueta por Item" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +286,7 @@
       <workItem from="1705406607510" duration="7761000" />
       <workItem from="1705424555485" duration="2550000" />
       <workItem from="1705428755306" duration="26588000" />
-      <workItem from="1705584967274" duration="5497000" />
+      <workItem from="1705584967274" duration="14704000" />
     </task>
     <task id="LOCAL-00001" summary="alterações com inclusão do rastro">
       <option name="closed" value="true" />
