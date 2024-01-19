@@ -39,5 +39,11 @@ Scenario: Impressão Avulsa
     And preencher as informacoes de impressao da Etiqueta de Agregacao
     Then sera exibido o alerta de impressao e a impressao sera enviada com sucesso
 
+  @jobsdeimpressao
+  Scenario: Consultar Jobs de Impressao
+    Given que o usuário faça login no Rastro
+    When selecionar impressoes e a aba Jobs de Impressão
+    And consultar os detalhes do job requerido e fazer o download
+    Then o documento do job será baixado
 
 

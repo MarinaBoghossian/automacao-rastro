@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroImpressorasLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroImpressorasPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroImpressorasSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/JobsImpressaoLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/JobsImpressaoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/JobsImpressaoStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroUsuarioStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroUsuarioStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Impressoes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Impressoes.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +87,7 @@
     "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
+    "Cucumber Java.Scenario: Consultar Jobs de Impressao.executor": "Run",
     "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
     "Cucumber Java.Scenario: Impressao de Recode.executor": "Run",
     "Cucumber Java.Scenario: Impressão Avulsa.executor": "Run",
@@ -129,7 +129,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Impressora">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Consultar Jobs de Impressao">
     <configuration name="Feature: Cadastros" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
@@ -158,26 +158,6 @@
       <option name="NAME_FILTER" value="^Cadastro de Checkpoint$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Checkpoint$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Checkpoint" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Cadastro de Etiqueta por Agregação" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
-      <option name="GLUE" value="Steps.Cadastros" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Etiqueta por Agregação$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Etiqueta por Agregação$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Etiqueta por Agregação" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -229,6 +209,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Consultar Jobs de Impressao" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" />
+      <option name="GLUE" value="Steps.Impressoes" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Consultar Jobs de Impressao$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Consultar Jobs de Impressao$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Consultar Jobs de Impressao" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="banco-original" />
       <method v="2">
@@ -244,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Consultar Jobs de Impressao" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Impressora" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Usuario" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Checkpoint" />
         <item itemvalue="Cucumber Java.Feature: Cadastros" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +286,7 @@
       <workItem from="1705406607510" duration="7761000" />
       <workItem from="1705424555485" duration="2550000" />
       <workItem from="1705428755306" duration="26588000" />
-      <workItem from="1705584967274" duration="14704000" />
+      <workItem from="1705584967274" duration="24194000" />
     </task>
     <task id="LOCAL-00001" summary="alterações com inclusão do rastro">
       <option name="closed" value="true" />

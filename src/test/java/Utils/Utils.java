@@ -8,8 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import javax.swing.*;
-
 public class Utils {
 
 	public static WebDriver driver;
@@ -74,7 +72,12 @@ String TextoTela = driver.findElement(elemento).getText();
   
 
 }
-	
+public void obterTexto(By elemento) {
+
+
+		 driver.findElement(elemento).getText();
+
+	}
 	public void apagar(By elemento) {
 
 		driver.findElement(elemento).clear();
@@ -127,6 +130,14 @@ String TextoTela = driver.findElement(elemento).getText();
 		Assert.assertEquals(mensagemAlerta, alerta.getText());
 		Assert.assertEquals(mensagemAlerta2, alerta.getText());
 		alerta.dismiss();
+	}
+
+
+	public void historico ()  {
+
+		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"J");
+		driver.navigate().to("chrome://downloads/");
+
 	}
 
 
