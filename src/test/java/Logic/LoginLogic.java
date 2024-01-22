@@ -22,7 +22,7 @@ public class LoginLogic {
         utils.clicar(loginPage.getBtnEntrar());
 
 
-        utils.pausa(1000);
+        utils.pausa(18000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
         utils.clicar(loginPage.getBtnSite());
         utils.clicar(loginPage.getBtnEntrarSite());

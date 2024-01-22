@@ -5,14 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/JobsImpressaoLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/JobsImpressaoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/JobsImpressaoStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Checkpoint/MenuCheckpointLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Checkpoint/RealizarCheckpointLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaAgregaçãoLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaConferenciaDataLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaConferenciaLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaEPCLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaEventoLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaJobLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaLoteLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaSerialLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/MenuConsultasLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Checkpoint/MenuCheckpointPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Checkpoint/RealizarCheckpointPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaAgregaçãoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaConferenciaDataPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaConferenciaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEPCPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEventoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaJobPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaLotePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaSerialPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/MenuConsultasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Checkpoint/RealizarCheckpointStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaAgregaçãoStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaConferenciaDataStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaConferenciaStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaEPCStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaEventoStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaJobStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaLoteStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaSerialStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Feature/Checkpoint.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Feature/Consultas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Impressoes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Impressoes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/JobsImpressaoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/JobsImpressaoPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +105,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Cucumber Java.Feature: Cadastros.executor": "Run",
+    "Cucumber Java.Feature: Consultas.executor": "Run",
     "Cucumber Java.Feature: Impressoes.executor": "Run",
     "Cucumber Java.Scenario: Associação de Recode.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Checkpoint.executor": "Run",
@@ -87,12 +120,21 @@
     "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de Conferencia por data.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de Conferencia.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de EPC.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de Evento.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de Job.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de Lote.executor": "Run",
+    "Cucumber Java.Scenario: Consulta de Serial.executor": "Run",
     "Cucumber Java.Scenario: Consultar Jobs de Impressao.executor": "Run",
     "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
     "Cucumber Java.Scenario: Impressao de Recode.executor": "Run",
     "Cucumber Java.Scenario: Impressão Avulsa.executor": "Run",
     "Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor": "Run",
     "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Realizar novo checkpoint sem leitor conectado.executor": "Run",
     "Cucumber Java.Scenario: Scan Print.executor": "Run",
     "JUnit.Runner (1).executor": "Run",
     "JUnit.Runner (2).executor": "Run",
@@ -129,15 +171,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Consultar Jobs de Impressao">
-    <configuration name="Feature: Cadastros" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Spooler">
+    <configuration name="Scenario: Cadastro de Leitor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.rastreabilidade" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Cadastros" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de Leitor$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Leitor$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Leitor" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -149,15 +192,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Cadastro de Checkpoint" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Cadastro de Spooler" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Checkpoint$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Checkpoint$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Checkpoint" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de Spooler$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Spooler$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Spooler" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -169,15 +212,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Cadastro de Impressora" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Cadastro de produto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Impressora$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Impressora$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Impressora" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de produto$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de produto$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de produto" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -189,15 +232,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Cadastro de Usuario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Cadastro de site" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Usuario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Usuario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Usuario" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de site$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de site$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de site" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -209,15 +252,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Consultar Jobs de Impressao" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Realizar novo checkpoint sem leitor conectado" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" />
-      <option name="GLUE" value="Steps.Impressoes" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Checkpoint.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.rastreabilidade" />
-      <option name="NAME_FILTER" value="^Consultar Jobs de Impressao$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Consultar Jobs de Impressao$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Consultar Jobs de Impressao" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Realizar novo checkpoint sem leitor conectado$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Realizar novo checkpoint sem leitor conectado$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Realizar novo checkpoint sem leitor conectado" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -244,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Consultar Jobs de Impressao" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Impressora" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Usuario" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Checkpoint" />
-        <item itemvalue="Cucumber Java.Feature: Cadastros" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Spooler" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Leitor" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de produto" />
+        <item itemvalue="Cucumber Java.Scenario: Realizar novo checkpoint sem leitor conectado" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +300,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
       </set>
     </attachedChunks>
   </component>
@@ -286,7 +328,7 @@
       <workItem from="1705406607510" duration="7761000" />
       <workItem from="1705424555485" duration="2550000" />
       <workItem from="1705428755306" duration="26588000" />
-      <workItem from="1705584967274" duration="24194000" />
+      <workItem from="1705584967274" duration="29626000" />
     </task>
     <task id="LOCAL-00001" summary="alterações com inclusão do rastro">
       <option name="closed" value="true" />
