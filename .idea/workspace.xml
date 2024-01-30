@@ -5,46 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Checkpoint/MenuCheckpointLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Checkpoint/RealizarCheckpointLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaAgregaçãoLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaConferenciaDataLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaConferenciaLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaEPCLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaEventoLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaJobLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaLoteLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaSerialLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/MenuConsultasLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Checkpoint/MenuCheckpointPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Checkpoint/RealizarCheckpointPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaAgregaçãoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaConferenciaDataPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaConferenciaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEPCPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEventoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaJobPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaLotePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaSerialPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/MenuConsultasPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Checkpoint/RealizarCheckpointStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaAgregaçãoStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaConferenciaDataStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaConferenciaStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaEPCStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaEventoStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaJobStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaLoteStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Consultas/ConsultaSerialStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Feature/Checkpoint.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Feature/Consultas.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquivosUpload/Conferência.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Conferencia/GestaoConferenciaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Conferencia/MenuConferenciaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Conferencia/RealizarConferenciaPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/JobsImpressaoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/JobsImpressaoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaAgregaçãoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaAgregaçãoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEPCPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEPCPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEventoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaEventoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaLotePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaLotePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaSerialPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Consultas/ConsultaSerialPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaEPCPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaEPCPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaEventoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaEventoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaSerialPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaSerialPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +122,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "cenarios-positivos",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/macar/IdeaProjects/banco-original",
+    "last_opened_file_path": "C:/Users/macar/IdeaProjects/banco-original/ArquivosUpload",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -159,6 +134,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\macar\IdeaProjects\banco-original\ArquivosUpload" />
       <recent name="C:\Users\macar\IdeaProjects\banco-original\Drive" />
       <recent name="C:\Users\macar\IdeaProjects\banco-original\Driver" />
     </key>
@@ -171,7 +147,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Spooler">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de site">
     <configuration name="Scenario: Cadastro de Leitor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
@@ -286,9 +262,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Spooler" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de Leitor" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de produto" />
         <item itemvalue="Cucumber Java.Scenario: Realizar novo checkpoint sem leitor conectado" />
       </list>

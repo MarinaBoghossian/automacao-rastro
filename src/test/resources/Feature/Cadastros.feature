@@ -1,3 +1,4 @@
+// #language: pt #encoding: uft-8
 
 @cadastros
 Feature: Cadastros no Rastro app
@@ -60,7 +61,7 @@ Feature: Cadastros no Rastro app
     Given que o usuário faça login no Rastro e esteja no dashboard
     When ir em cadastro e selecionar a aba Portal
     And clicar em novo e inserir as informacoes do novo portal
-    Then o portal será cadastrado com sucesso
+    Then o portal será cadastrado com sucesso0
 
   @cadastrousuario
   Scenario: Cadastro de Usuario
