@@ -1,4 +1,3 @@
-// #language: pt #encoding: uft-8
 
 @cadastros
 Feature: Cadastros no Rastro app

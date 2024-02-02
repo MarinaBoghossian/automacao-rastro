@@ -4,7 +4,7 @@ import Logic.Cadastros.CadastroProdutosGS1Logic;
 import Logic.Cadastros.CadastroSitesLogic;
 import Logic.Cadastros.MenuCadastrosLogic;
 import Logic.LoginLogic;
-import Pages.Cadastros.CadastroProdutosGS1Page;
+import Pages.Cadastros.CadastroProdutosPage;
 import Pages.LoginPage;
 import Steps.LoginStep;
 import Utils.Utils;
@@ -14,7 +14,7 @@ import io.cucumber.java.en.When;
 
 public class CadastroSitesStep {
     Utils utils = new Utils();
-    CadastroProdutosGS1Page cadastroProdutosGS1Page = new CadastroProdutosGS1Page();
+    CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();
     LoginPage loginPage = new LoginPage();
     LoginStep loginStep = new LoginStep();
     LoginLogic loginLogic = new LoginLogic();
@@ -44,7 +44,7 @@ public class CadastroSitesStep {
 
     }
 
-    @Then("aparecera a mensagem {string}")
+   @Then("aparecera a mensagem {string}")
     public void aparecera_a_mensagem(String string) throws InterruptedException{
         cadastroSitesLogic.validarCadastrSite();
     }

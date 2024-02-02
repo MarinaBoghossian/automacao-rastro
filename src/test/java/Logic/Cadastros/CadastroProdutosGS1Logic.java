@@ -2,7 +2,7 @@ package Logic.Cadastros;
 
 import Logic.LoginLogic;
 import Pages.Cadastros.MenuCadastroPage;
-import Pages.Cadastros.CadastroProdutosGS1Page;
+import Pages.Cadastros.CadastroProdutosPage;
 import Pages.LoginPage;
 import Utils.Utils;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +13,7 @@ public class CadastroProdutosGS1Logic {
 
         Utils utils = new Utils();
         LoginPage loginPage = new LoginPage();
-        CadastroProdutosGS1Page cadastroProdutosGS1Page = new CadastroProdutosGS1Page();
+        CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();
         MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
         LoginLogic loginLogic = new LoginLogic();
         MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
@@ -51,7 +51,7 @@ public class CadastroProdutosGS1Logic {
         public void subMenuProdutos() throws InterruptedException {
             WebDriver driver;
             utils.pausa(2000);
-            utils.clicar(cadastroProdutosGS1Page.getSubMenuProduto());
+            utils.clicar(cadastroProdutosPage.getSubMenuProduto());
 
 
         }
@@ -59,20 +59,20 @@ public class CadastroProdutosGS1Logic {
     public void cadastrarNovoProduto() throws InterruptedException {
         WebDriver driver;
         utils.pausa(2000);
-        utils.clicar(cadastroProdutosGS1Page.getBtnNovoProduto());
+        utils.clicar(cadastroProdutosPage.getBtnNovoProduto());
         utils.pausa(2000);
-        utils.preencher(cadastroProdutosGS1Page.getCampoSKU(), "1324568");
-        utils.preencher(cadastroProdutosGS1Page.getCampoGTIN(), "07908475065933");
-        utils.preencher(cadastroProdutosGS1Page.getCampoDescricao(), "produto teste automacao3");
-        utils.preencher(cadastroProdutosGS1Page.getCampoCategoria(), "categoria teste automacao3");
-        utils.clicar(cadastroProdutosGS1Page.getBtnSalvar());
+        utils.preencher(cadastroProdutosPage.getCampoSKU(), "1324568");
+        utils.preencher(cadastroProdutosPage.getCampoGTIN(), "07908475065933");
+        utils.preencher(cadastroProdutosPage.getCampoDescricao(), "produto teste automacao3");
+        utils.preencher(cadastroProdutosPage.getCampoCategoria(), "categoria teste automacao3");
+        utils.clicar(cadastroProdutosPage.getBtnSalvar());
     }
 
 
     public void validarCadastroProduto() throws InterruptedException {
         WebDriver driver;
         utils.pausa(2000);
-        utils.validarTexto(cadastroProdutosGS1Page.getTxtCadastroProduto(), "O produto foi cadastrado com sucesso!");
+        utils.validarTexto(cadastroProdutosPage.getTxtCadastroProduto(), "O produto foi cadastrado com sucesso!");
         utils.fecharNavegador();
     }
 

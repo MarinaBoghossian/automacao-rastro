@@ -2,7 +2,7 @@ package Logic.Cadastros;
 
 import Logic.LoginLogic;
 import Pages.Cadastros.MenuCadastroPage;
-import Pages.Cadastros.CadastroProdutosGS1Page;
+import Pages.Cadastros.CadastroProdutosPage;
 import Pages.Cadastros.CadastroSitesPage;
 import Pages.LoginPage;
 import Utils.Utils;
@@ -14,7 +14,7 @@ public class CadastroSitesLogic {
 
     Utils utils = new Utils();
     LoginPage loginPage = new LoginPage();
-    CadastroProdutosGS1Page cadastroProdutosGS1Page = new CadastroProdutosGS1Page();
+    CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();
     MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
     LoginLogic loginLogic = new LoginLogic();
     MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();

@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1" date="1706642845792" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 30/01/2024 16:26 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/Pages/Consultas/ConsultaAgregaçãoPage.class" />
+    <option name="AFTER_PATH" value="target/test-classes/Pages/Consultas/ConsultaAgregaçãoPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/ConsultaAgregaçãoPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/Pages/Consultas/ConsultaSerialPage.class" />
+    <option name="AFTER_PATH" value="target/test-classes/Pages/Consultas/ConsultaSerialPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/ConsultaSerialPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/Pages/Consultas/ConsultaLotePage.class" />
+    <option name="AFTER_PATH" value="target/test-classes/Pages/Consultas/ConsultaLotePage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/ConsultaLotePage.class" />
+  </binary>
+</changelist>

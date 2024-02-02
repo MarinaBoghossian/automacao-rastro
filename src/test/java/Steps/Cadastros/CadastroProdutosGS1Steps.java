@@ -1,15 +1,9 @@
 package Steps.Cadastros;
 
 import Logic.Cadastros.CadastroProdutosGS1Logic;
-import Logic.Cadastros.MenuCadastrosLogic;
-import Steps.LoginStep;
-import Utils.Utils;
-import Pages.Cadastros.CadastroProdutosGS1Page;
-import Pages.LoginPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import Logic.LoginLogic;
 
 public class CadastroProdutosGS1Steps {
 
