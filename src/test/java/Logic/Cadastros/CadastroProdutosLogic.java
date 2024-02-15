@@ -7,10 +7,36 @@ import Pages.LoginPage;
 import Utils.Utils;
 import org.openqa.selenium.WebDriver;
 
-public class CadastroProdutosGS1Logic {
+public class CadastroProdutosLogic {
 
+//     O sistema deve permitir:
+//     Cadastrar um SKU com 1 digito numérico
+//     Cadastrar um SKU com 50 dígitos alfanuméricos
+//     Cadastrar um SKU com 50 dígitos alfanuméricos e pontos
+//     Cadastrar um produto com 1 caracteres no campo Descrição
+//     Cadastrar um produto com 50 caracteres no campo Descrição
+//     Cadastrar um produto com 1 caracteres no campo Categoria
+//     Cadastrar um produto com 30 caracteres no campo Categoria incluindo letras, números e simbolos
+//     Validar se Download do item está disponível após cadastrado
+//     Cadastrar novo produto com itens de todos os tipos de extensões disponíveís, e validar mensagem de sucesso "Produto Cadastrado"
+//     Validar se Produto está sendo listado após cadastro e retornado por busca no filtro
+//     Cadastrar produto, e validar mensagem de sucesso "Produto Cadastrado"
+//     Validar se Botão "Novo" retorna modal "Novo Produto"
 
-
+//     O sistema não deve permitir:
+//     Cadastrar um novo produto sem preencher o campo SKU
+//     Cadastrar um novo produto sem preencher o campo Descrição
+//     Cadastrar um novo produto sem preencher o campo Categoria
+//     Cadastrar um produto com o mesmo SKU utilizado no cadastro do primeiro produto
+//     Cadastrar um produto com 100 caracteres no campo Descrição
+//     Cadastrar um produto com 100 caracteres no campo SKU
+//     Cadastrar um produto com 100 caracteres no campo Categoria
+//     Cadastrar novo produto sem preencher SKU, GTIN, Descrição ou Categoria, e validar visibilidade do erro "Campo Inválido"
+//     Cadastrar mais de um item do tipo TEXTO com Referência de Etiqueta iguais, no mesmo produto, e validar visibilidade do erro "Palavra-chave já existente!"
+//     Cadastrar um arquivo com extensão diferente do especificado no campo "TIPO"
+//     Cadastrar novo produto com SKU ou GTIN já existente, e validar erro "Produto já cadastrado"
+//     Cadastrar um produto com um usuário NOT-ADMIN
+//
         Utils utils = new Utils();
         LoginPage loginPage = new LoginPage();
         CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();

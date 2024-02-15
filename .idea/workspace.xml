@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_15_33_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_15_33__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/ConsultaAgregaçãoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/ConsultaLotePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/ConsultaSerialPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_28_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_28__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosGS1Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosGS1Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosGS1Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroImpressorasSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroImpressorasSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroSitesStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroSitesStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flashcode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selenium-reports" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaAgregaçãoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaAgregaçãoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaLotePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaLotePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaSerialPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaSerialPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosGS1Logic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroProdutosGS1Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroImpressorasSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroImpressorasSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosGS1Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosGS1Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroSitesStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroSitesStep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +73,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -75,50 +90,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Cucumber Java.Feature: Cadastros.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: Impressoes.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Associação de Recode.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Checkpoint.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Leitor.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Portal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Spooler.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de impressora.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de produto.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de site.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de usuario.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Fechar Navegador.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Impressao de Recode.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Impressão Avulsa.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login no Rastro.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Scan Print.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (3).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (4).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (5).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Br.com.original [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;cenarios-positivos&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/macar/IdeaProjects/automation-tests&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cucumber Java.Feature: Cadastros.executor": "Run",
+    "Cucumber Java.Feature: Impressoes.executor": "Run",
+    "Cucumber Java.Scenario: Associação de Recode.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Checkpoint.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Leitor.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Portal.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Spooler.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de impressora.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
+    "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
+    "Cucumber Java.Scenario: Impressao de Recode.executor": "Run",
+    "Cucumber Java.Scenario: Impressão Avulsa.executor": "Run",
+    "Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - tentativa de login com senha incorreta.executor": "Run",
+    "Cucumber Java.Scenario: Positivo - Login no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Recuperação de Senha no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Scan Print.executor": "Run",
+    "JUnit.Runner (1).executor": "Run",
+    "JUnit.Runner (2).executor": "Run",
+    "JUnit.Runner (3).executor": "Run",
+    "JUnit.Runner (4).executor": "Run",
+    "JUnit.Runner (5).executor": "Run",
+    "JUnit.Runner.executor": "Run",
+    "Maven.Br.com.original [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "cenarios-positivos",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/macar/IdeaProjects/automation-tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\macar\IdeaProjects\banco-original\Drive" />
@@ -133,16 +152,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Etiqueta por Item">
-    <configuration name="Scenario: Cadastro de Etiqueta por Agregação" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado">
+    <configuration name="Scenario: Cadastro de site" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Etiqueta por Agregação$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Etiqueta por Agregação$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Etiqueta por Agregação" />
+      <option name="NAME_FILTER" value="^Cadastro de site$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de site$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de site" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -154,15 +173,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Cadastro de Etiqueta por Item" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Negativo - tentativa de login com email nao cadastrado" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
-      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Etiqueta por Item$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Etiqueta por Item$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Etiqueta por Item" />
+      <option name="NAME_FILTER" value="^Negativo \- tentativa de login com email nao cadastrado$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- tentativa de login com email nao cadastrado$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Negativo - tentativa de login com email nao cadastrado" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -174,15 +193,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Cadastro de produto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Negativo - tentativa de login com senha incorreta" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
-      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de produto$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de produto$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de produto" />
+      <option name="NAME_FILTER" value="^Negativo \- tentativa de login com senha incorreta$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- tentativa de login com senha incorreta$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Negativo - tentativa de login com senha incorreta" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -194,15 +213,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Impressão Avulsa" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Positivo - Login no Rastro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" />
-      <option name="GLUE" value="Steps.Impressoes" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Impressão Avulsa$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Impressão Avulsa$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Impressão Avulsa" />
+      <option name="NAME_FILTER" value="^Positivo \- Login no Rastro$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positivo \- Login no Rastro$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Positivo - Login no Rastro" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -214,15 +233,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Realizar novo checkpoint sem leitor conectado" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Recuperação de Senha no Rastro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Checkpoint.feature" />
-      <option name="GLUE" value="Steps.Checkpoint" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Realizar novo checkpoint sem leitor conectado$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Realizar novo checkpoint sem leitor conectado$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Realizar novo checkpoint sem leitor conectado" />
+      <option name="NAME_FILTER" value="^Recuperação de Senha no Rastro$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Recuperação de Senha no Rastro$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Recuperação de Senha no Rastro" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -249,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Etiqueta por Item" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de produto" />
-        <item itemvalue="Cucumber Java.Scenario: Realizar novo checkpoint sem leitor conectado" />
-        <item itemvalue="Cucumber Java.Scenario: Impressão Avulsa" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação" />
+        <item itemvalue="Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado" />
+        <item itemvalue="Cucumber Java.Scenario: Negativo - tentativa de login com senha incorreta" />
+        <item itemvalue="Cucumber Java.Scenario: Positivo - Login no Rastro" />
+        <item itemvalue="Cucumber Java.Scenario: Recuperação de Senha no Rastro" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
       </list>
     </recent_temporary>
   </component>

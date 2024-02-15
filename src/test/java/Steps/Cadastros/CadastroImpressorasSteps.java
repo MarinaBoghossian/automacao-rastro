@@ -1,7 +1,6 @@
 package Steps.Cadastros;
 
 import Logic.Cadastros.CadastroImpressorasLogic;
-import Logic.Cadastros.CadastroProdutosGS1Logic;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 

@@ -1,6 +1,6 @@
 package Steps.Cadastros;
 
-import Logic.Cadastros.CadastroProdutosGS1Logic;
+import Logic.Cadastros.CadastroProdutosLogic;
 import Logic.Cadastros.CadastroSitesLogic;
 import Logic.Cadastros.MenuCadastrosLogic;
 import Logic.LoginLogic;
@@ -19,7 +19,7 @@ public class CadastroSitesStep {
     LoginStep loginStep = new LoginStep();
     LoginLogic loginLogic = new LoginLogic();
     MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
-    CadastroProdutosGS1Logic cadastroProdutosGS1Logic = new CadastroProdutosGS1Logic();
+    CadastroProdutosLogic cadastroProdutosLogic = new CadastroProdutosLogic();
     CadastroSitesLogic cadastroSitesLogic = new CadastroSitesLogic();
 
     @Given("que o usuário faça o login e esteja no dashboard")

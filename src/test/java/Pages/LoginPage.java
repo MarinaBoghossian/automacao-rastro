@@ -32,12 +32,7 @@ public class LoginPage {
 
 	private By btnEntrar = By.id("login-button");
 
-	private By btnEsqueciASenha = By.xpath("//span[text()='Esqueceu sua senha? Clique aqui.']");
 
-
-	private By campoEmailRecSenha = By.id("txt-name");
-
-	private By btnEnviarRecSenha = By.xpath("//span[text()='Enviar']");
 
 	private By btnEscolhaUmSite = By.xpath("//span[text()='Escolha um site']");
 
@@ -46,7 +41,11 @@ public class LoginPage {
 	private By btnEntrarSite = By.xpath("//span[text()='Entrar']");
 
 	private By txtDashboard = By.xpath("//span[text()='Dashboard']");
-
+	private By btnEsqueciSenha = By.xpath("//span[text()='Esqueceu sua senha? Clique aqui.']");
+	private By campoEmailRecSenha = By.id("txt-name");
+	private By btnEnviarEmailRecSenha = By.xpath("//span[text()='Enviar']");
+	private By confirmacaoRecSenha = By.xpath("//p[text()='Um email foi enviado para a recuperação da senha.']");
+	private By alertaCredenciaisInvalidas = By.xpath("//p[text()='Usuário e/ou senha inválidos. Verifique os dados inseridos.']");
 
 
 	public By getCampoUsuario() {	return campoUsuario;	}
@@ -59,17 +58,6 @@ public By getBtnEntrar() {
 	return btnEntrar;
 }
 
-public By getBtnEsqueciASenha() {
-	return btnEsqueciASenha;
-}
-
-public By getCampoEmailRecSenha() {
-	return campoEmailRecSenha;
-}
-
-public By getBtnEnviarRecSenha() {
-	return btnEnviarRecSenha;
-}
 
 public By getBtnEscolhaUmSite() {
 	return btnEscolhaUmSite;
@@ -83,8 +71,29 @@ public By getBtnEntrarSite() {
 	return btnEntrarSite;
 }
 
-	public By getTxtDashboard() {
+public By getTxtDashboard() {
 		return txtDashboard;
+	}
+
+
+	public By getBtnEsqueciSenha() {
+		return btnEsqueciSenha;
+	}
+
+	public By getCampoEmailRecSenha() {
+		return campoEmailRecSenha;
+	}
+
+	public By getBtnEnviarEmailRecSenha() {
+		return btnEnviarEmailRecSenha;
+	}
+
+	public By getConfirmacaoRecSenha() {
+		return confirmacaoRecSenha;
+	}
+
+	public By getAlertaCredenciaisInvalidas() {
+		return alertaCredenciaisInvalidas;
 	}
 }
 	

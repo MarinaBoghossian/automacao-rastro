@@ -1,5 +1,6 @@
 package Steps;
 
+import Logic.LoginLogic;
 import Pages.LoginPage;
 import Utils.Utils;
 import io.cucumber.java.en.Given;
@@ -7,52 +8,88 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginStep {
-	
-	Utils l = new Utils();
-	LoginPage lp = new LoginPage();
+
+	Utils utils = new Utils();
+	LoginPage loginPage = new LoginPage();
+	LoginLogic loginLogic = new LoginLogic();
 
 	@Given("que o usuario acesse a url")
 	public void que_o_usuario_acesse_a_url() {
 		String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
-		l.abrirNavegador(url);
-	
-	}
-
-	@Given("fazer o login")
-	public void fazer_o_login() throws InterruptedException {
-		l.pausa(2000);
-		l.preencher(lp.getCampoUsuario(), "marina.lessa@rastreabilidadebrasil.com.br");
-		l.preencher(lp.getCampoSenha(), "102030");
-		l.clicar(lp.getBtnEntrar());
+		utils.abrirNavegador(url);
 
 	}
 
+	@Given("fazer o login com dados validos")
+	public void fazer_o_login_com_dados_validos() throws InterruptedException {
+		utils.pausa(2000);
+		utils.preencher(loginPage.getCampoUsuario(), "marina.lessa@rastreabilidadebrasil.com.br");
+		utils.preencher(loginPage.getCampoSenha(), "102030");
+		utils.clicar(loginPage.getBtnEntrar());
+	}
 
 
 	@When("escolher o site")
 	public void escolher_o_site() throws InterruptedException {
-		l.pausa(2000);
-		l.clicar(lp.getBtnEscolhaUmSite());
-		l.clicar(lp.getBtnSite());
-		l.clicar(lp.getBtnEntrarSite());
+		utils.pausa(2000);
+		utils.clicar(loginPage.getBtnEscolhaUmSite());
+		utils.clicar(loginPage.getBtnSite());
+		utils.clicar(loginPage.getBtnEntrarSite());
 
 	}
-	
 
 
 	@Then("sera exibido o Dashboard")
 	public void sera_exibido_o_Dashboard() throws InterruptedException {
-		l.pausa(2000);
-		l.validarTexto(lp.getTxtDashboard(), "Dashboard");
+		utils.pausa(2000);
+		utils.validarTexto(loginPage.getTxtDashboard(), "Dashboard");
 
 	}
 
 	@Then("fechar navegador")
-	public void fechar_navegador(){
-		l.fecharNavegador();
+	public void fechar_navegador() {
+		utils.fecharNavegador();
 
 	}
 
+	@When("clicar no botao Esqueceu a senha e inserir o email para recuperacao de senha")
+	public void clicar_no_botao_esqueceu_a_senha_e_inserir_o_email_para_recuperacao_de_senha() throws InterruptedException {
+		loginLogic.redefinirSenha();
 
-	
+	}
+
+	@Then("sera exibido o a mensagem e o email de recuparecao sera enviado para o endereco informado")
+	public void sera_exibido_o_a_mensagem_e_o_email_de_recuparecao_sera_enviado_para_o_endereco_informado() {
+		loginLogic.confirmacaoRedefinirSenha();
+		utils.fecharNavegador();
+	}
+
+	@Given("fazer o login com email correto e senha incorreta")
+	public void fazer_o_login_com_email_correto_e_senha_incorreta() throws InterruptedException {
+		utils.pausa(2000);
+		utils.preencher(loginPage.getCampoUsuario(), "marina.lessa@rastreabilidadebrasil.com.br");
+		utils.preencher(loginPage.getCampoSenha(), "102035");
+		utils.clicar(loginPage.getBtnEntrar());
+	}
+
+	@When("clicar no botao entrar")
+	public void clicar_no_botao_entrar() throws InterruptedException {
+		utils.clicar(loginPage.getBtnEntrar());
+		utils.pausa(1000);
+	}
+
+	@Then("sera exibido o alerta de credenciais invalidas")
+	public void sera_exibido_o_alerta_de_credenciais_invalidas() {
+		utils.validarTexto(loginPage.getAlertaCredenciaisInvalidas(), "Usuário e/ou senha inválidos. Verifique os dados inseridos.");
+		utils.fecharNavegador();
+	}
+
+
+	@Given("fazer o login com email nao cadastrado e senha")
+	public void fazer_o_login_com_email_nao_cadastrado_e_senha() throws InterruptedException {
+		utils.pausa(2000);
+		utils.preencher(loginPage.getCampoUsuario(), "marina.lessa123@rastreabilidadebrasil.com.br");
+		utils.preencher(loginPage.getCampoSenha(), "102030");
+		utils.clicar(loginPage.getBtnEntrar());
+	}
 }
