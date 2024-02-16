@@ -46,7 +46,16 @@ public class LoginPage {
 	private By btnEnviarEmailRecSenha = By.xpath("//span[text()='Enviar']");
 	private By confirmacaoRecSenha = By.xpath("//p[text()='Um email foi enviado para a recuperação da senha.']");
 	private By alertaCredenciaisInvalidas = By.xpath("//p[text()='Usuário e/ou senha inválidos. Verifique os dados inseridos.']");
+	private By campoEmailRecuperar = By.xpath("//input[@formcontrolname='email']");
+	private By campoSenhaRecuperar = By.xpath("//input[@formcontrolname='password']");
+	private By campoConfirmarSenhaRecuperar = By.xpath("//input[@formcontrolname='confirmPassword']");
+	private By btnSalvar = By.xpath("//span[text()='Salvar']");
+	private By validacaoPaginaRecSenha = By.xpath("//span[text()='Recuperação de Senha']");
+	private By validarTelaLogin = By.id("login-container");
 
+	public By getValidarTelaLogin() {
+		return validarTelaLogin;
+	}
 
 	public By getCampoUsuario() {	return campoUsuario;	}
 
@@ -94,6 +103,26 @@ public By getTxtDashboard() {
 
 	public By getAlertaCredenciaisInvalidas() {
 		return alertaCredenciaisInvalidas;
+	}
+
+	public By getCampoEmailRecuperar() {
+		return campoEmailRecuperar;
+	}
+
+	public By getCampoSenhaRecuperar() {
+		return campoSenhaRecuperar;
+	}
+
+	public By getCampoConfirmarSenhaRecuperar() {
+		return campoConfirmarSenhaRecuperar;
+	}
+
+	public By getBtnSalvar() {
+		return btnSalvar;
+	}
+
+	public By getValidacaoPaginaRecSenha() {
+		return validacaoPaginaRecSenha;
 	}
 }
 	

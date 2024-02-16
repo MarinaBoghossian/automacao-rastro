@@ -13,6 +13,7 @@ public class LoginStep {
 	LoginPage loginPage = new LoginPage();
 	LoginLogic loginLogic = new LoginLogic();
 
+
 	@Given("que o usuario acesse a url")
 	public void que_o_usuario_acesse_a_url() {
 		String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
@@ -54,7 +55,7 @@ public class LoginStep {
 
 	@When("clicar no botao Esqueceu a senha e inserir o email para recuperacao de senha")
 	public void clicar_no_botao_esqueceu_a_senha_e_inserir_o_email_para_recuperacao_de_senha() throws InterruptedException {
-		loginLogic.redefinirSenha();
+		loginLogic.redefinirSenha("marina.lessa@rastreabilidadebrasil.com.br");
 
 	}
 
@@ -91,5 +92,23 @@ public class LoginStep {
 		utils.preencher(loginPage.getCampoUsuario(), "marina.lessa123@rastreabilidadebrasil.com.br");
 		utils.preencher(loginPage.getCampoSenha(), "102030");
 		utils.clicar(loginPage.getBtnEntrar());
+	}
+
+	@When("não selecionar um site")
+	public void não_selecionar_um_site() throws InterruptedException {
+		utils.pausa(2000);
+		utils.clicar(loginPage.getBtnEscolhaUmSite());
+		utils.clicar(loginPage.getBtnEntrarSite());
+
+	}
+
+	@Then("não deverá ser permitido seguir para o dashboard")
+	public void não_deverá_ser_permitido_seguir_para_o_dashboard() {
+		if (utils.clicar(loginPage.getBtnEntrarSite())) ;
+		else {
+			System.out.println("Botão não habilitado. Não é possível seguir sem selecionar ");
+
+
+		}
 	}
 }

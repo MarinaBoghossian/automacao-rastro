@@ -12,7 +12,7 @@ public class CadastroSpoolerLogic {
     CadastroSpoolerPage cadastroSpoolerPage = new CadastroSpoolerPage();
 
     public void acessoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro();
+        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
     }
 
     public void menuCadastros()throws InterruptedException{

@@ -13,11 +13,13 @@ public class Utils {
 	public static WebDriver driver;
 
 
-	
-	public void clicar (By elemento) {
+	public boolean clicar (By elemento) {
+
 	
 	driver.findElement(elemento).click();
-	}
+
+        return false;
+    }
 	
 	public void preencher (By elemento, String texto) {
 	
@@ -62,15 +64,15 @@ driver = new ChromeDriver();
 		driver.get(url);
 		}
 
-public void validarTexto(By elemento, String texto) {
+public boolean validarTexto(By elemento, String texto) {
 	
 	
 String TextoTela = driver.findElement(elemento).getText();
 
   assertEquals(texto, TextoTela);
-  
-  
 
+
+    return false;
 }
 public void obterTexto(By elemento) {
 

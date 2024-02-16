@@ -3,6 +3,7 @@ package Logic;
 import Pages.Cadastros.MenuCadastroPage;
 import Pages.LoginPage;
 import Utils.Utils;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginLogic {
 
@@ -25,14 +26,14 @@ public class LoginLogic {
 
     MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
 
-    public void acessoAoRastro() throws InterruptedException {
+    public void acessoAoRastro(String usuario, String senha) throws InterruptedException {
         String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
         utils.abrirNavegador(url);
 
 
         utils.pausa(2000);
-        utils.preencher(loginPage.getCampoUsuario(), "marina@teste1.com");
-        utils.preencher(loginPage.getCampoSenha(), "102030");
+        utils.preencher(loginPage.getCampoUsuario(), usuario);
+        utils.preencher(loginPage.getCampoSenha(), senha);
         utils.clicar(loginPage.getBtnEntrar());
 
 
@@ -47,6 +48,7 @@ public class LoginLogic {
 
 
     }
+
     public void cadastros() throws InterruptedException {
 
         utils.pausa(2000);
@@ -55,17 +57,17 @@ public class LoginLogic {
 
     }
 
-    public void redefinirSenha() throws InterruptedException {
+    public void redefinirSenha(String email) throws InterruptedException {
+
         utils.clicar(loginPage.getBtnEsqueciSenha());
-        utils.preencher(loginPage.getCampoEmailRecSenha(), "marina.lessa@rastreabilidadebrasil.com.br");
+        utils.preencher(loginPage.getCampoEmailRecSenha(), email);
         utils.clicar(loginPage.getBtnEnviarEmailRecSenha());
         utils.pausa(2000);
 
 
     }
-    public void confirmacaoRedefinirSenha(){
+
+    public void confirmacaoRedefinirSenha() {
         utils.validarTexto(loginPage.getConfirmacaoRecSenha(), "Um email foi enviado para a recuperação da senha.");
     }
-
-
 }

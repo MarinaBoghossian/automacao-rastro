@@ -31,5 +31,16 @@ Feature: Login no Rastro
     When clicar no botao entrar
     Then sera exibido o alerta de credenciais invalidas
 
+  @loginsemsite
+  Scenario: Negativo - tentativa de login sem selecionar um site
+    Given que o usuario acesse a url
+    When fazer o login com dados validos
+    And não selecionar um site
+    Then não deverá ser permitido seguir para o dashboard
+
+
+
+
+
 
 

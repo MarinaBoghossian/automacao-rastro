@@ -13,7 +13,7 @@ public class ScanPrintLogic {
 
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro();
+        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
 
 
     }
