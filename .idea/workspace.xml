@@ -5,50 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
-      <change afterPath="$PROJECT_DIR$/Drive/..exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/RedefinirSenhaLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/RedefinirSenhaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/RedefinirSenhaStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drive/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drive/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroImpressorasLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroImpressorasLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroLeitorLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroLeitorLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSpoolerLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSpoolerLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroUsuarioLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroUsuarioLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Impressões/AssociacaoRecodeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/AssociacaoRecodeLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoAvulsaLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoAvulsaLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoEtiquetaAgregacaoLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoEtiquetaAgregacaoLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoRecodeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoRecodeLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Impressões/JobsImpressaoLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/JobsImpressaoLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ScanPrintLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ScanPrintLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroCheckpointLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroCheckpointLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroEtiquetasLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroEtiquetasLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroImpressorasLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroImpressorasLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroLeitorLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroLeitorLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroPortalLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroPortalLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSpoolerLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSpoolerLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroUsuarioLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroUsuarioLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/MenuCadastrosLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/MenuCadastrosLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/MenuCheckpointLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/MenuCheckpointLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/RealizarCheckpointLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/RealizarCheckpointLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/MenuConsultasLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/MenuConsultasLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/AssociacaoRecodeLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/AssociacaoRecodeLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoAvulsaLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoAvulsaLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoEtiquetaAgregacaoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoEtiquetaAgregacaoLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoRecodeLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoRecodeLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/JobsImpressaoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/JobsImpressaoLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/MenuImpressoesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/MenuImpressoesLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ScanPrintLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ScanPrintLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +92,14 @@
     &quot;Cucumber Java.Scenario: Impressão Avulsa.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Login no Rastro.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Negativo - Tentativa de login com senha anterior a redefinida.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Negativo - tentativa de acessso com senha antiga após recuperação de senha.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Negativo - tentativa de login com senha incorreta.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Negativo - tentativa de login sem selecionar um site.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Positivo - Login com senha redefinida.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Positivo - Login no Rastro.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Recuperação de Senha no Rastro.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Scan Print.executor&quot;: &quot;Run&quot;,
@@ -171,16 +138,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Recuperação de Senha no Rastro">
-    <configuration name="Scenario: Negativo - tentativa de acessso com senha antiga após recuperação de senha" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Positivo - Login com senha redefinida">
+    <configuration name="Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Negativo \- tentativa de acessso com senha antiga após recuperação de senha$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- tentativa de acessso com senha antiga após recuperação de senha$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negativo - tentativa de acessso com senha antiga após recuperação de senha" />
+      <option name="NAME_FILTER" value="^Negativo \- Redefinição de senha sem preencher o campo confirmação de senha$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- Redefinição de senha sem preencher o campo confirmação de senha$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -192,15 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Negativo - tentativa de login com email nao cadastrado" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Negativo - Tentativa de login com senha anterior a redefinida" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Negativo \- tentativa de login com email nao cadastrado$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- tentativa de login com email nao cadastrado$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negativo - tentativa de login com email nao cadastrado" />
+      <option name="NAME_FILTER" value="^Negativo \- Tentativa de login com senha anterior a redefinida$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- Tentativa de login com senha anterior a redefinida$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Negativo - Tentativa de login com senha anterior a redefinida" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -212,15 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Negativo - tentativa de login com senha incorreta" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Negativo \- tentativa de login com senha incorreta$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- tentativa de login com senha incorreta$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negativo - tentativa de login com senha incorreta" />
+      <option name="NAME_FILTER" value="^Negativo \- Tentativa de recuperação de Senha no Rastro com um e\-mail sem cadastro$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- Tentativa de recuperação de Senha no Rastro com um e\-mail sem cadastro$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -232,15 +199,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Negativo - tentativa de login sem selecionar um site" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Positivo - Login com senha redefinida" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Negativo \- tentativa de login sem selecionar um site$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- tentativa de login sem selecionar um site$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negativo - tentativa de login sem selecionar um site" />
+      <option name="NAME_FILTER" value="^Positivo \- Login com senha redefinida$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positivo \- Login com senha redefinida$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Positivo - Login com senha redefinida" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -287,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Positivo - Login com senha redefinida" />
+        <item itemvalue="Cucumber Java.Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha" />
+        <item itemvalue="Cucumber Java.Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro" />
+        <item itemvalue="Cucumber Java.Scenario: Negativo - Tentativa de login com senha anterior a redefinida" />
         <item itemvalue="Cucumber Java.Scenario: Recuperação de Senha no Rastro" />
-        <item itemvalue="Cucumber Java.Scenario: Negativo - tentativa de acessso com senha antiga após recuperação de senha" />
-        <item itemvalue="Cucumber Java.Scenario: Negativo - tentativa de login com senha incorreta" />
-        <item itemvalue="Cucumber Java.Scenario: Negativo - tentativa de login sem selecionar um site" />
-        <item itemvalue="Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado" />
       </list>
     </recent_temporary>
   </component>

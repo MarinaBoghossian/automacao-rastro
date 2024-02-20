@@ -38,6 +38,30 @@ Feature: Login no Rastro
     And não selecionar um site
     Then não deverá ser permitido seguir para o dashboard
 
+  @senhaanteriorredefinida
+  Scenario: Negativo - Tentativa de login com senha anterior a redefinida
+    Given que o usuário resete sua senha
+    When fizer o login novamente utilizando a senha antiga
+    Then sera exibido o alerta de credenciais invalidas
+
+  @recuperacaosenhasemcadastro
+  Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro
+    Given que o usuario acesse a url
+    When clicar no botao Esqueceu a senha e inserir um email não cadstrao para recuperacao de senha
+    Then sera exibido o alerta de que o usuario nao foi encontrado
+
+  @redefiniçãodesenha
+  Scenario: Positivo - Login com senha redefinida
+    Given que o usuário resete sua senha
+    When fizer o login com a nova senha e escolher o site
+    Then sera exibido o Dashboard
+
+  @redefinirsemconfirmacaodesenha
+  Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha
+    Given que o usuario esteja na redefinicao de senha
+    When preencher os dados e NAO preencher a confirmacao de senha
+    Then o botao salvar nao sera habilitado e a senha nao sera redefinida
+
 
 
 
