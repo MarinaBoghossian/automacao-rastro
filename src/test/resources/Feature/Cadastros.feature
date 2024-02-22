@@ -76,6 +76,43 @@ Feature: Cadastros no Rastro app
     And clicar em novo e inserir as informacoes da nova impressora
     Then a impressora será cadastrada com sucesso
 
+  @cadastroprodutosemSKU
+  Scenario: Tentativa de cadastro de produto sem preencher SKU
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba produtos
+    And selecionar novo e preencher todos os campos obrigatorios exceto SKU
+    Then o botao salvar nao devera ser habilitado sem SKU
+
+  @cadastroprodutosemGTIN
+  Scenario: Tentativa de cadastro de produto sem preencher GTIN
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba produtos
+    And selecionar novo e preencher todos os campos obrigatorios exceto GTIN
+    Then o botao salvar nao devera ser habilitado sem GTIN
+
+  @cadastroprodutosemdescricao
+  Scenario: Tentativa de cadastro de produto sem preencher Descrição
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba produtos
+    And selecionar novo e preencher todos os campos obrigatorios exceto descricao
+    Then o botao salvar nao devera ser habilitado sem descricao
+
+  @cadastroprodutosemcategoria
+  Scenario: Tentativa de cadastro de produto sem preencher categoria
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba produtos
+    And selecionar novo e preencher todos os campos obrigatorios exceto categoria
+    Then o botao salvar nao devera ser habilitado sem categoria
+
+  @cadastroprodutosemprefixo
+  Scenario: Tentativa de cadastro de produto sem preencher prefixo
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba produtos
+    And selecionar novo e preencher todos os campos obrigatorios exceto prefixo
+    Then o botao salvar nao devera ser habilitado sem o prefixo
+
+  @cadastroprodutotenantportenant
+
 
 
 

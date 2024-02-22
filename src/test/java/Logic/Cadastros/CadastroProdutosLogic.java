@@ -45,18 +45,18 @@ public class CadastroProdutosLogic {
         MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
 
 
-        public void acessoAoRastro() throws InterruptedException {
+        public void acessoAoRastro(String usuario, String senha) throws InterruptedException {
             String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
             utils.abrirNavegador(url);
 
 
             utils.pausa(2000);
-            utils.preencher(loginPage.getCampoUsuario(), "marina@teste1.com");
-            utils.preencher(loginPage.getCampoSenha(), "102030");
+            utils.preencher(loginPage.getCampoUsuario(), usuario);
+            utils.preencher(loginPage.getCampoSenha(), senha);
             utils.clicar(loginPage.getBtnEntrar());
 
 
-            utils.pausa(9000);
+            utils.pausa(2000);
             utils.clicar(loginPage.getBtnEscolhaUmSite());
             utils.clicar(loginPage.getBtnSite());
             utils.clicar(loginPage.getBtnEntrarSite());
@@ -82,15 +82,15 @@ public class CadastroProdutosLogic {
 
         }
 
-    public void cadastrarNovoProduto() throws InterruptedException {
+    public void cadastrarNovoProdutoGS1(String SKU, String GTIN, String descricao, String categoria) throws InterruptedException {
         WebDriver driver;
         utils.pausa(2000);
         utils.clicar(cadastroProdutosPage.getBtnNovoProduto());
         utils.pausa(2000);
-        utils.preencher(cadastroProdutosPage.getCampoSKU(), "1324568");
-        utils.preencher(cadastroProdutosPage.getCampoGTIN(), "07908475065933");
-        utils.preencher(cadastroProdutosPage.getCampoDescricao(), "produto teste automacao3");
-        utils.preencher(cadastroProdutosPage.getCampoCategoria(), "categoria teste automacao3");
+        utils.preencher(cadastroProdutosPage.getCampoSKU(), SKU);
+        utils.preencher(cadastroProdutosPage.getCampoGTIN(), GTIN);
+        utils.preencher(cadastroProdutosPage.getCampoDescricao(), descricao);
+        utils.preencher(cadastroProdutosPage.getCampoCategoria(), categoria);
         utils.clicar(cadastroProdutosPage.getBtnSalvar());
     }
 
@@ -101,5 +101,24 @@ public class CadastroProdutosLogic {
         utils.validarTexto(cadastroProdutosPage.getTxtCadastroProduto(), "O produto foi cadastrado com sucesso!");
         utils.fecharNavegador();
     }
-
+    public void preenchimentosObrigatorios(String mensagem)
+    {  if (utils.clicar(cadastroProdutosPage.getBtnSalvar())) ;
+    else {
+        System.out.println(mensagem);
+    }
 }
+    public void cadastrarNovoProdutoPrefixoSKU(String SKU, String prefixo, String descricao, String categoria) throws InterruptedException {
+        WebDriver driver;
+        utils.pausa(2000);
+        utils.clicar(cadastroProdutosPage.getBtnNovoProduto());
+        utils.pausa(2000);
+        utils.preencher(cadastroProdutosPage.getCampoSKU(), SKU);
+        utils.preencher(cadastroProdutosPage.getCampoDescricao(), descricao);
+        utils.preencher(cadastroProdutosPage.getCampoCategoria(), categoria);
+        utils.preencher(cadastroProdutosPage.getCampoPrefixo(), prefixo);
+        utils.clicar(cadastroProdutosPage.getBtnSalvar());
+    }
+
+
+
+    }

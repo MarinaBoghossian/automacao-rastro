@@ -11,7 +11,7 @@ public class CadastroProdutosPage {
     private By campoDescricao = By.id("txt-description");
     private By btnSalvar = By.id("button-save");
     private By campoCategoria = By.id("txt-category");
-    private By campoPrefixo = By.id("txt-prefixo");
+    private By campoPrefixo = By.xpath("//input[@formcontrolname='epcPrefix']");
     private  By btnDeletarProduto = By.id("button-delete");
     private By btnEditarProduto = By.id("button-edit");
     private  By btnAddVariavel = By.id("button-add");

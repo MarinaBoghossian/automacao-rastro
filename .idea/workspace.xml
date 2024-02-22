@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/RedefinirSenhaLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/RedefinirSenhaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/RedefinirSenhaStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,60 +69,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Cucumber Java.Feature: Cadastros.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: Impressoes.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Associação de Recode.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Checkpoint.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Leitor.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Portal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de Spooler.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de impressora.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de produto.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de site.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de usuario.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Fechar Navegador.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Impressao de Recode.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Impressão Avulsa.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login no Rastro.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negativo - Tentativa de login com senha anterior a redefinida.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negativo - tentativa de acessso com senha antiga após recuperação de senha.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negativo - tentativa de login com senha incorreta.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Negativo - tentativa de login sem selecionar um site.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Positivo - Login com senha redefinida.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Positivo - Login no Rastro.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Recuperação de Senha no Rastro.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Scan Print.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (3).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (4).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (5).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Br.com.original [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;cenarios-positivos&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/macar/IdeaProjects/automation-tests&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cucumber Java.Feature: Cadastros.executor": "Run",
+    "Cucumber Java.Feature: Impressoes.executor": "Run",
+    "Cucumber Java.Scenario: Associação de Recode.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Checkpoint.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Leitor.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Portal.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Spooler.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de impressora.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
+    "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
+    "Cucumber Java.Scenario: Impressao de Recode.executor": "Run",
+    "Cucumber Java.Scenario: Impressão Avulsa.executor": "Run",
+    "Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - Tentativa de login com senha anterior a redefinida.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - tentativa de acessso com senha antiga após recuperação de senha.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - tentativa de login com senha incorreta.executor": "Run",
+    "Cucumber Java.Scenario: Negativo - tentativa de login sem selecionar um site.executor": "Run",
+    "Cucumber Java.Scenario: Positivo - Login com senha redefinida.executor": "Run",
+    "Cucumber Java.Scenario: Positivo - Login no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Recuperação de Senha no Rastro.executor": "Run",
+    "Cucumber Java.Scenario: Scan Print.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher Descrição.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher GTIN.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher SKU.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher categoria.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher prefixo.executor": "Run",
+    "JUnit.Runner (1).executor": "Run",
+    "JUnit.Runner (2).executor": "Run",
+    "JUnit.Runner (3).executor": "Run",
+    "JUnit.Runner (4).executor": "Run",
+    "JUnit.Runner (5).executor": "Run",
+    "JUnit.Runner.executor": "Run",
+    "Maven.Br.com.original [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "cenarios-positivos",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/macar/IdeaProjects/automation-tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\macar\IdeaProjects\banco-original\Drive" />
@@ -138,87 +142,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Positivo - Login com senha redefinida">
-    <configuration name="Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Negativo \- Redefinição de senha sem preencher o campo confirmação de senha$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- Redefinição de senha sem preencher o campo confirmação de senha$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Negativo - Tentativa de login com senha anterior a redefinida" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Negativo \- Tentativa de login com senha anterior a redefinida$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- Tentativa de login com senha anterior a redefinida$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negativo - Tentativa de login com senha anterior a redefinida" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Negativo \- Tentativa de recuperação de Senha no Rastro com um e\-mail sem cadastro$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negativo \- Tentativa de recuperação de Senha no Rastro com um e\-mail sem cadastro$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Positivo - Login com senha redefinida" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Positivo \- Login com senha redefinida$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positivo \- Login com senha redefinida$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Positivo - Login com senha redefinida" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher prefixo">
     <configuration name="Scenario: Recuperação de Senha no Rastro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
@@ -228,6 +152,86 @@
       <option name="NAME_FILTER" value="^Recuperação de Senha no Rastro$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Recuperação de Senha no Rastro$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Recuperação de Senha no Rastro" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher GTIN" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher GTIN$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher GTIN$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher GTIN" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher SKU" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher SKU$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher SKU$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher SKU" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher categoria" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher categoria$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher categoria$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher categoria" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher prefixo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher prefixo$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher prefixo$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher prefixo" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -254,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Positivo - Login com senha redefinida" />
-        <item itemvalue="Cucumber Java.Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha" />
-        <item itemvalue="Cucumber Java.Scenario: Negativo - Tentativa de recuperação de Senha no Rastro com um e-mail sem cadastro" />
-        <item itemvalue="Cucumber Java.Scenario: Negativo - Tentativa de login com senha anterior a redefinida" />
+        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher prefixo" />
         <item itemvalue="Cucumber Java.Scenario: Recuperação de Senha no Rastro" />
+        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher GTIN" />
+        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher SKU" />
+        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher categoria" />
       </list>
     </recent_temporary>
   </component>
