@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="Criação das classes etiqueta de agregação Page, Logic e Step&#10;Inserção da feature de Etiqueta de Agregação">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Feature/CadastroProduto.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroCheckpointStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroCheckpointStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosGS1Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroProdutosStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Checkpoint.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Checkpoint.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Checkpoint.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Checkpoint.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroProdutosPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroProdutosPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosGS1Steps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +85,7 @@
     "Cucumber Java.Feature: Cadastros.executor": "Run",
     "Cucumber Java.Feature: Impressoes.executor": "Run",
     "Cucumber Java.Scenario: Associação de Recode.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de Checkpoint com usuário not admin.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Checkpoint.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor": "Run",
@@ -86,10 +96,19 @@
     "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
+    "Cucumber Java.Scenario: Edição da categoria do produto com usuario admin.executor": "Run",
+    "Cucumber Java.Scenario: Edição da descricao do produto com usuario admin.executor": "Run",
+    "Cucumber Java.Scenario: Edição do GTIN do produto com um GTIN já cadastrado em outro produto.executor": "Run",
+    "Cucumber Java.Scenario: Edição do GTIN do produto com usuario admin.executor": "Run",
+    "Cucumber Java.Scenario: Edição do GTIN do produto com usuario not admin.executor": "Run",
+    "Cucumber Java.Scenario: Edição do SKU do produto com usuario admin.executor": "Run",
+    "Cucumber Java.Scenario: Edição do prefixo do produto com usuario admin.executor": "Run",
+    "Cucumber Java.Scenario: Exclusão de produto.executor": "Run",
     "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
     "Cucumber Java.Scenario: Impressao de Recode.executor": "Run",
     "Cucumber Java.Scenario: Impressão Avulsa.executor": "Run",
     "Cucumber Java.Scenario: Impressão de Etiqueta de Agregação.executor": "Run",
+    "Cucumber Java.Scenario: Inclusão de um produto que foi excluido anteriormente.executor": "Run",
     "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
     "Cucumber Java.Scenario: Negativo - Redefinição de senha sem preencher o campo confirmação de senha.executor": "Run",
     "Cucumber Java.Scenario: Negativo - Tentativa de login com senha anterior a redefinida.executor": "Run",
@@ -98,15 +117,20 @@
     "Cucumber Java.Scenario: Negativo - tentativa de login com email nao cadastrado.executor": "Run",
     "Cucumber Java.Scenario: Negativo - tentativa de login com senha incorreta.executor": "Run",
     "Cucumber Java.Scenario: Negativo - tentativa de login sem selecionar um site.executor": "Run",
+    "Cucumber Java.Scenario: Negativo: Exclusão de produto com usuario not-admin.executor": "Run",
     "Cucumber Java.Scenario: Positivo - Login com senha redefinida.executor": "Run",
     "Cucumber Java.Scenario: Positivo - Login no Rastro.executor": "Run",
     "Cucumber Java.Scenario: Recuperação de Senha no Rastro.executor": "Run",
     "Cucumber Java.Scenario: Scan Print.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto com um GTIN já cadastrado.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto com um SKU já cadastrado.executor": "Run",
+    "Cucumber Java.Scenario: Tentativa de cadastro de produto com um usuário not admin.executor": "Run",
     "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher Descrição.executor": "Run",
     "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher GTIN.executor": "Run",
     "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher SKU.executor": "Run",
     "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher categoria.executor": "Run",
     "Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher prefixo.executor": "Run",
+    "Cucumber Java.Scenario: Validação de listagem e busca do produto após o cadastro.executor": "Run",
     "JUnit.Runner (1).executor": "Run",
     "JUnit.Runner (2).executor": "Run",
     "JUnit.Runner (3).executor": "Run",
@@ -142,16 +166,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher prefixo">
-    <configuration name="Scenario: Recuperação de Senha no Rastro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Checkpoint com usuário not admin">
+    <configuration name="Scenario: Cadastro de Checkpoint com usuário not admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Login.feature" />
-      <option name="GLUE" value="Steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Checkpoint.feature" />
+      <option name="GLUE" value="Steps.Cadastros Steps.Checkpoint" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Recuperação de Senha no Rastro$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Recuperação de Senha no Rastro$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Recuperação de Senha no Rastro" />
+      <option name="NAME_FILTER" value="^Cadastro de Checkpoint com usuário not admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Checkpoint com usuário not admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Checkpoint com usuário not admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -163,15 +187,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher GTIN" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Edição da categoria do produto com usuario admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher GTIN$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher GTIN$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher GTIN" />
+      <option name="NAME_FILTER" value="^Edição da categoria do produto com usuario admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Edição da categoria do produto com usuario admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edição da categoria do produto com usuario admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -183,15 +207,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher SKU" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Edição do GTIN do produto com um GTIN já cadastrado em outro produto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher SKU$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher SKU$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher SKU" />
+      <option name="NAME_FILTER" value="^Edição do GTIN do produto com um GTIN já cadastrado em outro produto$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Edição do GTIN do produto com um GTIN já cadastrado em outro produto$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edição do GTIN do produto com um GTIN já cadastrado em outro produto" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -203,15 +227,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher categoria" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Edição do GTIN do produto com usuario not admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher categoria$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher categoria$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher categoria" />
+      <option name="NAME_FILTER" value="^Edição do GTIN do produto com usuario not admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Edição do GTIN do produto com usuario not admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edição do GTIN do produto com usuario not admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -223,15 +247,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Tentativa de cadastro de produto sem preencher prefixo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Edição do prefixo do produto com usuario admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Tentativa de cadastro de produto sem preencher prefixo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tentativa de cadastro de produto sem preencher prefixo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Tentativa de cadastro de produto sem preencher prefixo" />
+      <option name="NAME_FILTER" value="^Edição do prefixo do produto com usuario admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Edição do prefixo do produto com usuario admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edição do prefixo do produto com usuario admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -258,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher prefixo" />
-        <item itemvalue="Cucumber Java.Scenario: Recuperação de Senha no Rastro" />
-        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher GTIN" />
-        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher SKU" />
-        <item itemvalue="Cucumber Java.Scenario: Tentativa de cadastro de produto sem preencher categoria" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Checkpoint com usuário not admin" />
+        <item itemvalue="Cucumber Java.Scenario: Edição do GTIN do produto com um GTIN já cadastrado em outro produto" />
+        <item itemvalue="Cucumber Java.Scenario: Edição do GTIN do produto com usuario not admin" />
+        <item itemvalue="Cucumber Java.Scenario: Edição do prefixo do produto com usuario admin" />
+        <item itemvalue="Cucumber Java.Scenario: Edição da categoria do produto com usuario admin" />
       </list>
     </recent_temporary>
   </component>

@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resources/Feature/Cadastros.feature", "src/test/resources/Feature/Login.feature"},
+		features = {"src/test/resources/Feature/CadastroProduto.feature", "src/test/resources/Feature/Login.feature"},
 		glue = "Steps",
 		tags =
 				"@cadastroproduto",

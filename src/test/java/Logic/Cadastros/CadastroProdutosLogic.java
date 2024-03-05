@@ -23,7 +23,7 @@ public class CadastroProdutosLogic {
 //     Cadastrar produto, e validar mensagem de sucesso "Produto Cadastrado"
 //     Validar se Botão "Novo" retorna modal "Novo Produto"
 
-//     O sistema não deve permitir:
+    //     O sistema não deve permitir:
 //     Cadastrar um novo produto sem preencher o campo SKU
 //     Cadastrar um novo produto sem preencher o campo Descrição
 //     Cadastrar um novo produto sem preencher o campo Categoria
@@ -37,50 +37,50 @@ public class CadastroProdutosLogic {
 //     Cadastrar novo produto com SKU ou GTIN já existente, e validar erro "Produto já cadastrado"
 //     Cadastrar um produto com um usuário NOT-ADMIN
 //
-        Utils utils = new Utils();
-        LoginPage loginPage = new LoginPage();
-        CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();
-        MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
-        LoginLogic loginLogic = new LoginLogic();
-        MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
+    Utils utils = new Utils();
+    LoginPage loginPage = new LoginPage();
+    CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();
+    MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
+    LoginLogic loginLogic = new LoginLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
 
 
-        public void acessoAoRastro(String usuario, String senha) throws InterruptedException {
-            String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
-            utils.abrirNavegador(url);
+    public void acessoAoRastro(String usuario, String senha) throws InterruptedException {
+        String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
+        utils.abrirNavegador(url);
 
 
-            utils.pausa(2000);
-            utils.preencher(loginPage.getCampoUsuario(), usuario);
-            utils.preencher(loginPage.getCampoSenha(), senha);
-            utils.clicar(loginPage.getBtnEntrar());
+        utils.pausa(2000);
+        utils.preencher(loginPage.getCampoUsuario(), usuario);
+        utils.preencher(loginPage.getCampoSenha(), senha);
+        utils.clicar(loginPage.getBtnEntrar());
 
 
-            utils.pausa(2000);
-            utils.clicar(loginPage.getBtnEscolhaUmSite());
-            utils.clicar(loginPage.getBtnSite());
-            utils.clicar(loginPage.getBtnEntrarSite());
+        utils.pausa(2000);
+        utils.clicar(loginPage.getBtnEscolhaUmSite());
+        utils.clicar(loginPage.getBtnSite());
+        utils.clicar(loginPage.getBtnEntrarSite());
 
 
-            utils.pausa(2000);
-            utils.validarTexto(loginPage.getTxtDashboard(), "Dashboard");
-            utils.pausa(1000);
+        utils.pausa(2000);
+        utils.validarTexto(loginPage.getTxtDashboard(), "Dashboard");
+        utils.pausa(1000);
 
 
-        }
+    }
 
-        public void menuCadastros()throws InterruptedException{
-            menuCadastrosLogic.cadastros();
+    public void menuCadastros() throws InterruptedException {
+        menuCadastrosLogic.cadastros();
 
-        }
+    }
 
-        public void subMenuProdutos() throws InterruptedException {
-            WebDriver driver;
-            utils.pausa(2000);
-            utils.clicar(cadastroProdutosPage.getSubMenuProduto());
+    public void subMenuProdutos() throws InterruptedException {
+        WebDriver driver;
+        utils.pausa(2000);
+        utils.clicar(cadastroProdutosPage.getSubMenuProduto());
 
 
-        }
+    }
 
     public void cadastrarNovoProdutoGS1(String SKU, String GTIN, String descricao, String categoria) throws InterruptedException {
         WebDriver driver;
@@ -99,14 +99,16 @@ public class CadastroProdutosLogic {
         WebDriver driver;
         utils.pausa(2000);
         utils.validarTexto(cadastroProdutosPage.getTxtCadastroProduto(), "O produto foi cadastrado com sucesso!");
-        utils.fecharNavegador();
+        utils.clicar(cadastroProdutosPage.getBtnOK());
     }
-    public void preenchimentosObrigatorios(String mensagem)
-    {  if (utils.clicar(cadastroProdutosPage.getBtnSalvar())) ;
-    else {
-        System.out.println(mensagem);
+
+    public void preenchimentosObrigatorios(String mensagem) {
+        if (utils.clicar(cadastroProdutosPage.getBtnSalvar())) ;
+        else {
+            System.out.println(mensagem);
+        }
     }
-}
+
     public void cadastrarNovoProdutoPrefixoSKU(String SKU, String prefixo, String descricao, String categoria) throws InterruptedException {
         WebDriver driver;
         utils.pausa(2000);
@@ -119,6 +121,39 @@ public class CadastroProdutosLogic {
         utils.clicar(cadastroProdutosPage.getBtnSalvar());
     }
 
-
-
+    public void validarCdastroProdutoUsuarioNotAdmin() throws InterruptedException {
+        utils.pausa(2000);
+        utils.validarTexto(cadastroProdutosPage.getValidacaoUserNotAdmin(), "Esse perfil não tem permissão para realizar esta operação!");
+        utils.fecharNavegador();
     }
+
+    public void buscaDeProdutoPorDescricao(String filtro, String nomeProduto) throws InterruptedException {
+        utils.pausa(1000);
+        utils.preencher(cadastroProdutosPage.getCampoFiltrar(), filtro);
+        if (utils.validarTexto(cadastroProdutosPage.getValidarColunaDescricao(nomeProduto), nomeProduto)) ;
+        else {
+            System.out.println("Produto não encontrado");
+
+        }
+    }
+
+
+
+    public void validarProdutoJaCadastrado(){
+        utils.validarTexto(cadastroProdutosPage.getValidacaoProdutoJaExistente(), "O produto cadastrado já existe! Por favor, verifique os dados inseridos!");
+    }
+
+    public void deletarProdutoPorNome(String nomeProduto){
+        utils.clicar(cadastroProdutosPage.getBtnDeletarProduto(nomeProduto));
+    }
+
+    public void confirmacaoExclusao() throws InterruptedException {
+        utils.clicar(cadastroProdutosPage.getBtnConfirmarExclusaoProduto());
+        utils.pausa(1000);
+        utils.clicar(cadastroProdutosPage.getBtnOK());
+    }
+
+    public void mensagemNaoExclusaoProdutoUsuarioNotAdmin(){
+        utils.validarTexto(cadastroProdutosPage.getAlertaProdutoNaoExcluidoUserNotAdmin(), "Esse perfil não tem permissão para realizar esta operação!");
+    }
+}
