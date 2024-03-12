@@ -13,7 +13,7 @@ public class ScanPrintLogic {
 
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
 
 
     }
@@ -41,7 +41,8 @@ public class ScanPrintLogic {
         utils.clicar(scanPrintPage.getBtnImprimir());
     }
 
-    public void validacaoScanPrintPositivo(){
+    public void validacaoScanPrintPositivo() throws InterruptedException {
+        utils.pausa(1000);
         utils.validarTexto(scanPrintPage.getValidarScanPrint(), "A etiqueta foi impressa com sucesso.");
     }
 

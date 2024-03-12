@@ -4,7 +4,8 @@ import org.openqa.selenium.By;
 
 public class CadastroImpressorasPage {
 
-    private By subMenuImpressoras = By.xpath("//span[text()='Impressoras']");
+    private By subMenuImpressoras = By.xpath("//a[@href='#/printers-list']");
+    private By menuCadastros = By.xpath("//span[text()='Cadastros']");
     private By btnNovaImpressora = By.id("button-new");
     private By campoNomeImpressora = By.id("txt-name");
     private By campoEnderecoIP = By.id("txt-ipAddress");
@@ -68,5 +69,9 @@ public class CadastroImpressorasPage {
 
     public By getValidarCadastroImpressora() {
         return validarCadastroImpressora;
+    }
+
+    public By getMenuCadastros() {
+        return menuCadastros;
     }
 }

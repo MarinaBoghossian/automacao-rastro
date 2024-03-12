@@ -13,18 +13,20 @@ public class CadastroImpressorasLogic {
     CadastroImpressorasPage cadastroImpressorasPage = new CadastroImpressorasPage();
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
+        utils.pausa(1000);
 
 
     }
 
     public void menuCadastros()throws InterruptedException{
-        menuCadastrosLogic.cadastros();
+        utils.clicar(cadastroImpressorasPage.getMenuCadastros());
 
     }
 
     public void subMenuImpressoras()throws InterruptedException{
-        utils.abrirNovaGuia("https://rastroapp-homol.rastreabilidadebrasil.com.br/#/printers-list");
+
+        utils.clicar(cadastroImpressorasPage.getSubMenuImpressoras());
     }
 
     public void cadastrarNovaImpressora() throws InterruptedException {

@@ -3,6 +3,7 @@ package Logic;
 import Pages.Cadastros.MenuCadastroPage;
 import Pages.LoginPage;
 import Utils.Utils;
+import Utils.Data;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginLogic {
@@ -22,22 +23,22 @@ public class LoginLogic {
 //     Após o Login verificar se o Sites exibidos estão corretos com o que esta cadastrado no backoffice
 
     Utils utils = new Utils();
+    Data data = new Data();
     LoginPage loginPage = new LoginPage();
 
     MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
 
-    public void acessoAoRastro(String usuario, String senha) throws InterruptedException {
-        String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
-        utils.abrirNavegador(url);
+    public void acessoAoRastro() throws InterruptedException {
+        utils.abrirNavegador(data.url());
 
 
         utils.pausa(2000);
-        utils.preencher(loginPage.getCampoUsuario(), usuario);
-        utils.preencher(loginPage.getCampoSenha(), senha);
+        utils.preencher(loginPage.getCampoUsuario(), data.usuario());
+        utils.preencher(loginPage.getCampoSenha(), data.senha());
         utils.clicar(loginPage.getBtnEntrar());
 
 
-        utils.pausa(18000);
+        utils.pausa(2000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
         utils.clicar(loginPage.getBtnSite());
         utils.clicar(loginPage.getBtnEntrarSite());
@@ -60,7 +61,7 @@ public class LoginLogic {
     public void redefinirSenha(String email) throws InterruptedException {
 
         utils.clicar(loginPage.getBtnEsqueciSenha());
-        utils.preencher(loginPage.getCampoEmailRecSenha(), email);
+        utils.preencher(loginPage.getCampoEmailRecSenha(), data.usuario());
         utils.clicar(loginPage.getBtnEnviarEmailRecSenha());
         utils.pausa(2000);
 

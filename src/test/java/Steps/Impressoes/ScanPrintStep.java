@@ -25,7 +25,7 @@ public class ScanPrintStep {
 
     }
     @Then("a Scan Print sera enviada com sucesso")
-    public void a_scan_print_sera_enviada_com_sucesso() {
+    public void a_scan_print_sera_enviada_com_sucesso() throws InterruptedException {
         scanPrintLogic.validacaoScanPrintPositivo();
         utils.fecharNavegador();
 

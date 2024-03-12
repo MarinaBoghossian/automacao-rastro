@@ -27,8 +27,7 @@ public class JobsImpressaoStep {
     }
     @Then("o documento do job será baixado")
     public void o_documento_do_job_será_baixado() throws InterruptedException {
-        utils.pausa(5000);
-        jobsImpressaoLogic.validarDownload();
+        utils.fecharNavegador();
 
     }
 

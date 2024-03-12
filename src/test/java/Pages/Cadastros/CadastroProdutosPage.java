@@ -27,8 +27,10 @@ public class CadastroProdutosPage {
     private By btnConfirmarExclusaoProduto = By.id("button-yes");
 
     private By alertaProdutoNaoExcluidoUserNotAdmin = By.xpath("//p[text()='Esse perfil não tem permissão para realizar esta operação!']");
+    private By btnArquivo = By.xpath("//input[@type='file']");
 
     private By validarEdicaoProduto = By.xpath("");
+    private By validarArquivoEnviado = By.xpath("//span[text()='Arquivo enviado com sucesso!']");
     public By getValidarEdicaoProduto(String mensagem){
         return validarEdicaoProduto = By.xpath("//p[text()='" + mensagem + "']");
     }
@@ -115,5 +117,11 @@ public class CadastroProdutosPage {
         return alertaProdutoNaoExcluidoUserNotAdmin;
     }
 
+    public By getBtnArquivo() {
+        return btnArquivo;
+    }
 
+    public By getValidarArquivoEnviado() {
+        return validarArquivoEnviado;
+    }
 }

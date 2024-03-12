@@ -23,9 +23,6 @@ private final MenuCadastroPage menuCadastroPage;
 
     public void cadastros() throws InterruptedException {
 
-
-
-
         utils.pausa(2000);
         utils.clicar(menuCadastroPage.getMenuCadastros());
 

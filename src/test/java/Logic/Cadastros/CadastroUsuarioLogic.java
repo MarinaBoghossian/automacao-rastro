@@ -3,6 +3,7 @@ package Logic.Cadastros;
 import Logic.LoginLogic;
 import Pages.Cadastros.CadastroUsuarioPage;
 import Utils.Utils;
+import Utils.Data;
 
 public class CadastroUsuarioLogic {
 
@@ -10,10 +11,11 @@ public class CadastroUsuarioLogic {
     LoginLogic loginLogic = new LoginLogic();
     MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroUsuarioPage cadastroUsuarioPage = new CadastroUsuarioPage();
+    Data data = new Data();
 
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
 
 
     }
@@ -29,11 +31,11 @@ public class CadastroUsuarioLogic {
 
     public void cadastrarNovoUsuario() throws InterruptedException {
         utils.clicar(cadastroUsuarioPage.getBtnNovoUsuario());
-        utils.preencher(cadastroUsuarioPage.getCampoNome(), "Teste Automação1");
-        utils.preencher(cadastroUsuarioPage.getCampoUsuario(), "teste1@teste.com");
-        utils.preencher(cadastroUsuarioPage.getCampoEmail(), "teste1@teste.com");
-        utils.preencher(cadastroUsuarioPage.getCampoSenha(), "102030");
-        utils.preencher(cadastroUsuarioPage.getCampoConfirmarSenha(), "102030");
+        utils.preencher(cadastroUsuarioPage.getCampoNome(), data.nomeUsuario());
+        utils.preencher(cadastroUsuarioPage.getCampoUsuario(), data.novoUsuario());
+        utils.preencher(cadastroUsuarioPage.getCampoEmail(), data.novoUsuario());
+        utils.preencher(cadastroUsuarioPage.getCampoSenha(), data.novaSenha());
+        utils.preencher(cadastroUsuarioPage.getCampoConfirmarSenha(), data.novaSenha());
         utils.clicar(cadastroUsuarioPage.getBtnUsuarioAdministrador());
         utils.clicar(cadastroUsuarioPage.getBtnUsuarioMatriz());
         utils.clicar(cadastroUsuarioPage.getBtnSalvarUsuario());

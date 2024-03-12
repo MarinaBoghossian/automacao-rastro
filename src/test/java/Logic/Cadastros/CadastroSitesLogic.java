@@ -7,22 +7,23 @@ import Pages.Cadastros.CadastroSitesPage;
 import Pages.LoginPage;
 import Utils.Utils;
 import org.openqa.selenium.WebDriver;
+import Utils.Data;
 
 public class CadastroSitesLogic {
 
 
 
     Utils utils = new Utils();
-    LoginPage loginPage = new LoginPage();
-    CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();
-    MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
+    Data data = new Data();
+
     LoginLogic loginLogic = new LoginLogic();
     MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroSitesPage cadastroSitesPage = new CadastroSitesPage();
 
 
+
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
 
 
     }
@@ -45,8 +46,8 @@ public class CadastroSitesLogic {
         utils.pausa(2000);
         utils.clicar(cadastroSitesPage.getBtnNovoSite());
         utils.pausa(2000);
-        utils.preencher(cadastroSitesPage.getCampoNomeSite(), "TESTE 3");
-        utils.preencher(cadastroSitesPage.getCampoCNPJ(), "78946325986542");
+        utils.preencher(cadastroSitesPage.getCampoNomeSite(), data.nomeSite());
+        utils.preencher(cadastroSitesPage.getCampoCNPJ(), data.CNPJ());
         utils.clicar(cadastroSitesPage.getBtnSalvarSite());
 
     }

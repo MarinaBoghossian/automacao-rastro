@@ -8,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import java.io.File;
+
 public class Utils {
 
 	public static WebDriver driver;
@@ -140,6 +142,15 @@ public void obterTexto(By elemento) {
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"J");
 		driver.navigate().to("chrome://downloads/");
 
+	}
+
+	public void inserirArquivo(By elemento, String nomeArquivo){
+
+
+		WebElement uploadArquivo = driver.findElement(elemento);
+		File file = new File(nomeArquivo);
+
+	uploadArquivo.sendKeys(file.getAbsolutePath());
 	}
 
 

@@ -12,7 +12,7 @@ public class ImpressaoAvulsaLogic {
 
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
 
 
     }
@@ -76,8 +76,9 @@ public class ImpressaoAvulsaLogic {
     }
 
         public void validarImpressao() throws InterruptedException {
+            utils.pausa(4000);
         utils.validarTexto(impressaoAvulsaPage.getValidarImpressao(), "A etiqueta selecionada será impressa. Aguarde!");
-        utils.pausa(1000);
+
         utils.fecharNavegador();
 
 

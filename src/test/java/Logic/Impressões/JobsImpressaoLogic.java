@@ -13,7 +13,7 @@ public class JobsImpressaoLogic {
     JobsImpressaoPage jobsImpressaoPage = new JobsImpressaoPage();
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
 
 
     }
@@ -29,7 +29,7 @@ public class JobsImpressaoLogic {
 
     public void consultarJobImpressao(){
         //dataHoraJob precisa seguir exatamente esse formato " 18/01/2024 09:07:16 "
-        utils.clicar(jobsImpressaoPage.getDynamicElement(" 18/01/2024 09:07:16 "));
+        utils.clicar(jobsImpressaoPage.getDynamicElement(" 07/03/2024 12:47:23 "));
     }
 
     public void detalhesJob(){

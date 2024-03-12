@@ -10,6 +10,7 @@ public class CadastroImpressorasSteps {
     @When("ir em cadastro e selecionar a aba Impressoras")
     public void ir_em_cadastro_e_selecionar_a_aba_impressoras() throws InterruptedException {
 
+       cadastroImpressorasLogic.menuCadastros();
         cadastroImpressorasLogic.subMenuImpressoras();
 
     }

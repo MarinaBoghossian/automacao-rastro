@@ -12,7 +12,7 @@ public class ImpressaoEtiquetaAgregacaoLogic {
     ImpressaoEtiquetaAgregacaoPage impressaoEtiquetaAgregacaoPage = new ImpressaoEtiquetaAgregacaoPage();
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
     }
 
     public void menuImpressoes() throws InterruptedException {

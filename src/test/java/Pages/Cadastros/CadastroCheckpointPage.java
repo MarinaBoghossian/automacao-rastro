@@ -8,7 +8,7 @@ public class CadastroCheckpointPage {
     private By btnNovoCheckpoint = By.id("button-new");
     private By campoNomeCheckpoint = By.id("txt-name");
     private By campoEscolhaLeitor =  By.xpath("//span[text()='Escolha um Leitor*']");
-    private By selectNomeLeitor = By.xpath("//span[text()='LEITOR 7']");
+    private By selectNomeLeitor = By.xpath("");
     private By campoDuracaoCheckpoint = By.id("duration");
     private By campoIntegracao = By.xpath("//*[@id=\"pr_id_9_label\"]");
     private By selectIntegracao = By.xpath("//div[text()=' Entrada ']");
@@ -33,8 +33,8 @@ public class CadastroCheckpointPage {
         return campoEscolhaLeitor;
     }
 
-    public By getSelectNomeLeitor() {
-        return selectNomeLeitor;
+    public By getSelectNomeLeitor(String nomeLeitor) {
+        return selectNomeLeitor = By.xpath("//span[text()='"+ nomeLeitor +"']");
     }
 
     public By getCampoDuracaoCheckpoint() {
@@ -45,16 +45,16 @@ public class CadastroCheckpointPage {
         return campoIntegracao;
     }
 
-    public By getSelectIntegracao() {
-        return selectIntegracao;
+    public By getSelectIntegracao(String nomeIntegracao) {
+        return selectIntegracao  = By.xpath("//div[text()='"+ nomeIntegracao +"']");
     }
 
     public By getCampoEvento() {
         return campoEvento;
     }
 
-    public By getSelectEvento() {
-        return selectEvento;
+    public By getSelectEvento(String nomeEvento) {
+        return selectEvento = By.xpath("//div[text()='"+ nomeEvento +"']");
     }
 
     public By getBtnSalvarChekpoint() {

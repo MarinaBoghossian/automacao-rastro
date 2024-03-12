@@ -15,17 +15,17 @@ public class CadastroLeitoresPage {
     private By campoEnderecoIPLeitor = By.id("txt-ip");
     private By campoPortaLeitor = By.id("txt-port");
     private By campoMododaLista = By.xpath("//span[text()='Modo da Lista']");
-    private By mododaListaUnique = By.xpath("//span[text()='UNIQUE']");
-    private By mododaListaNormal = By.xpath("//span[text()='NORMAL']");
+    private By modoDaLista = By.xpath("");
+
     private By campoLimitacaodaLista = By.xpath("//span[text()='Limitação da Lista']");
-    private By limitacaoClear = By.xpath("//span[text()='CLEAR']");
-    private By limitacaoStop = By.xpath("//span[text()='STOP']");
+    private By nomeLimitacaoLista = By.xpath("");
+
     private By campoModoLeitor = By.xpath("//span[text()='Modo do Leitor']");
-    private By nomeModoLeitor = By.xpath("//span[text()='AutoSetStaticFast']");
+    private By nomeModoLeitor = By.xpath("");
     private By campoModoPesquisa = By.xpath("//span[text()='Modo de Pesquisa']");
-    private By nomeModoPesquisa = By.xpath("//span[text()='SingleTarget']");
+    private By nomeModoPesquisa = By.xpath("");
     private By campoSessaoLeitor = By.xpath("//span[text()='Sessão do Leitor']");
-    private By nomeSessaoLeitor =  By.xpath("//span[text()='Sessão 1']");
+    private By nomeSessaoLeitor =  By.xpath("");
     private By campoEstimativaTag = By.id("txt-tag-population-estimate");
     private By campoIDServidor = By.id("txt-server-id");
     private By campoIPServidor = By.id("txt-server-ip");
@@ -33,6 +33,15 @@ public class CadastroLeitoresPage {
     private By campoConfigOrigem = By.id("txt-origin-config");
     private By btnSalvarLeitor = By.id("button-save");
     private By validarCadastroLeitor = By.xpath("//p[text()='O leitor foi cadastrado com sucesso!']");
+    private By btnHabilitarAntena = By.xpath("//p-inputswitch[@formcontrolname='rfidReaderImpinjAntenna4Enable']");
+    private By btnIncluirFastID =  By.xpath("//p-inputswitch[@formcontrolname='includeFastId']");
+    private By antena1 = By.xpath("//span[text()='Antena 1']");
+    private By antena2 = By.xpath("//span[text()='Antena 2']");
+    private By antena3 = By.xpath("//span[text()='Antena 3']");
+    private By antena4 = By.xpath("//span[text()='Antena 4']");
+
+
+
 
 
 
@@ -62,48 +71,45 @@ public class CadastroLeitoresPage {
         return campoMododaLista;
     }
 
-    public By getMododaListaUnique() {
-        return mododaListaUnique;
+    public By getModoDaLista(String nomeModoLista) {
+        return modoDaLista = By.xpath("//span[text()='"+ nomeModoLista +"']");
     }
 
-    public By getMododaListaNormal() {
-        return mododaListaNormal;
-    }
+
+
 
     public By getCampoLimitacaodaLista() {
         return campoLimitacaodaLista;
     }
 
-    public By getLimitacaoClear() {
-        return limitacaoClear;
+    public By getNomeLimitacaoLista(String nomeLimitacao) {
+        return nomeLimitacaoLista  = By.xpath("//span[text()='" + nomeLimitacao +"']");
     }
 
-    public By getLimitacaoStop() {
-        return limitacaoStop;
-    }
+
 
     public By getCampoModoLeitor() {
         return campoModoLeitor;
     }
 
-    public By getNomeModoLeitor() {
-        return nomeModoLeitor;
+    public By getNomeModoLeitor(String modoLeitor) {
+        return nomeModoLeitor = By.xpath("//span[text()='" + modoLeitor +"']");
     }
 
     public By getCampoModoPesquisa() {
         return campoModoPesquisa;
     }
 
-    public By getNomeModoPesquisa() {
-        return nomeModoPesquisa;
+    public By getNomeModoPesquisa(String modoPesquisa) {
+        return nomeModoPesquisa= By.xpath("//span[text()='" + modoPesquisa +"']");
     }
 
     public By getCampoSessaoLeitor() {
         return campoSessaoLeitor;
     }
 
-    public By getNomeSessaoLeitor() {
-        return nomeSessaoLeitor;
+    public By getNomeSessaoLeitor(String sessaoLeitor) {
+        return nomeSessaoLeitor = By.xpath("//span[text()='" + sessaoLeitor +"']");
     }
 
     public By getCampoEstimativaTag() {
@@ -133,4 +139,5 @@ public class CadastroLeitoresPage {
     public By getValidarCadastroLeitor() {
         return validarCadastroLeitor;
     }
+
 }

@@ -13,13 +13,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CadastroSitesStep {
-    Utils utils = new Utils();
-    CadastroProdutosPage cadastroProdutosPage = new CadastroProdutosPage();
-    LoginPage loginPage = new LoginPage();
-    LoginStep loginStep = new LoginStep();
-    LoginLogic loginLogic = new LoginLogic();
-    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
-    CadastroProdutosLogic cadastroProdutosLogic = new CadastroProdutosLogic();
+
     CadastroSitesLogic cadastroSitesLogic = new CadastroSitesLogic();
 
     @Given("que o usuário faça o login e esteja no dashboard")

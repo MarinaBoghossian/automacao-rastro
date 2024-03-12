@@ -8,11 +8,11 @@ public class CadastroPortalPage {
     private By btnNovoPortal = By.id("button-new");
     private By campoNomePortal = By.id("txt-name");
     private By campoEvento = By.xpath("//*[@id='event-list']/div/div[2]");
-    private By selectNomeEvento = By.xpath("//div[text()=' CHECKIN ']");
+    private By selectNomeEvento = By.xpath("");
     private By campoImpressora = By.xpath("//*[@id='printer-list']/div");
-    private By selectNomeImpressora = By.xpath("//span[text()='tetsss11']");
+    private By selectNomeImpressora = By.xpath("");
     private By campoLeitor = By.xpath("//*[@id='reader-list']/div");
-    private By selectNomeLeitor = By.xpath("//span[text()='LEITOR 7']");
+    private By selectNomeLeitor = By.xpath("");
     private By btnSalvarNovoPortal = By.id("button-save");
     private By validarCadastroPortal = By.xpath("//p[text()='O portal foi cadastrado com sucesso!']");
 
@@ -36,16 +36,16 @@ public class CadastroPortalPage {
         return campoImpressora;
     }
 
-    public By getSelectNomeImpressora() {
-        return selectNomeImpressora;
+    public By getSelectNomeImpressora(String nomeImpressora) {
+        return selectNomeImpressora = By.xpath("//span[text()='"+ nomeImpressora +"']");
     }
 
     public By getCampoLeitor() {
         return campoLeitor;
     }
 
-    public By getSelectNomeLeitor() {
-        return selectNomeLeitor;
+    public By getSelectNomeLeitor(String nomeLeitor) {
+        return selectNomeLeitor = By.xpath("//span[text()='"+ nomeLeitor +"']");
     }
 
     public By getBtnSalvarNovoPortal() {
@@ -56,7 +56,7 @@ public class CadastroPortalPage {
         return validarCadastroPortal;
     }
 
-    public By getSelectNomeEvento() {
-        return selectNomeEvento;
+    public By getSelectNomeEvento(String nomeEvento) {
+        return selectNomeEvento = By.xpath("//div[text()=' "+ nomeEvento +" ']");
     }
 }

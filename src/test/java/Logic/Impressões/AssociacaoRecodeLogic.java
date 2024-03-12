@@ -14,7 +14,7 @@ public class AssociacaoRecodeLogic {
     AssociacaoRecodePage associacaoRecodePage = new AssociacaoRecodePage();
 
     public void acessoAoRastro() throws InterruptedException {
-        loginLogic.acessoAoRastro("marina@teste1.com", "102030");
+        loginLogic.acessoAoRastro();
 
 
 
@@ -37,7 +37,7 @@ public class AssociacaoRecodeLogic {
 
     public void novaAssociacaoRecode()throws InterruptedException{
         utils.preencher(associacaoRecodePage.getCampoSKU(), "1324567");
-        utils.preencher(associacaoRecodePage.getCampoEPC(), "30366259ffd08fc000000005");
+        utils.preencher(associacaoRecodePage.getCampoEPC(), "30366259ffd08fc000000007");
         utils.preencher(associacaoRecodePage.getCampoDetalhes(), "teste");
         utils.clicar(associacaoRecodePage.getBtnAssociar());
     }

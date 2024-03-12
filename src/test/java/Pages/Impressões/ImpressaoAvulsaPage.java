@@ -11,9 +11,9 @@ public class ImpressaoAvulsaPage {
     private By campoCategoriaProduto = By.xpath("/html/body/app-root/app-main/div/div[2]/app-single-prints/div/div/div/div[2]/form[1]/div/div[2]/div[2]/div/input");
     private By btnBuscarCategoriaProduto = By.xpath("/html/body/app-root/app-main/div/div[2]/app-single-prints/div/div/div/div[2]/form[1]/div/div[2]/div[2]/div/button");
    //inserir nome do produto que deseja buscar após o span text
-    private By campoConfirmarDescricaoProduto = By.xpath("//td[text()='produto teste automacao']");
+    private By campoConfirmarDescricaoProduto = By.xpath("//td[text()='produto teste automacao3']");
     //inserir o nome da categoria do produto que deseja buscar após o span text
-    private By campoConfirmarCategoriaProduto = By.xpath("//td[text()='categoria teste automacao']");
+    private By campoConfirmarCategoriaProduto = By.xpath("//td[text()='categoria teste automacao3']");
     private By btnOK = By.xpath("/html/body/app-root/app-main/div/div[2]/app-single-prints/p-dialog[2]/div/div/div[3]/p-footer/button");
     private By btnProximo = By.xpath("/html/body/app-root/app-main/div/div[2]/app-single-prints/div/div/div/div[3]/div/div/div/button[2]");
     private By campoLote = By.xpath("/html/body/app-root/app-main/div/div[2]/app-single-prints/div/div/div/div[2]/form[2]/div[1]/div[1]/input");
