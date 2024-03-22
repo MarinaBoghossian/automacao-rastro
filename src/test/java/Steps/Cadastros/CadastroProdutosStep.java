@@ -292,6 +292,16 @@ public class CadastroProdutosStep {
 
     }
 
+    @When("realizar o cadastro de produto adicionando dois itens do tipo Texto com a mesma referencia")
+    public void realizar_o_cadastro_de_produto_adicionando_dois_itens_do_tipo_texto_com_a_mesma_referencia() {
+
+    }
+
+    @Then("devera aparecer o alerta de que a referencia já existe")
+    public void devera_aparecer_o_alerta_de_que_a_referencia_já_existe() {
+
+    }
+
 
 
 

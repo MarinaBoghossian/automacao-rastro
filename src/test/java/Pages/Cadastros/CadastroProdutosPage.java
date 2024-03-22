@@ -31,6 +31,16 @@ public class CadastroProdutosPage {
 
     private By validarEdicaoProduto = By.xpath("");
     private By validarArquivoEnviado = By.xpath("//span[text()='Arquivo enviado com sucesso!']");
+    private By btnAdicionarItens = By.id("button-add");
+    private By btnEditarItem = By.id("edit-item");
+    private By campoNomeItem = By.id("txt-name");
+    private By campoConteudo = By.id("txt-content");
+    private By selectTipoItem = By.id("pr_id_15_label");
+    private By tipoItem = By.xpath("");
+    public By getTipoItem(String nomeTipoItem){
+        return tipoItem = By.xpath("//UL[@id='pr_id_15_list']//following::div[text()='" + nomeTipoItem + "']");
+    }
+
     public By getValidarEdicaoProduto(String mensagem){
         return validarEdicaoProduto = By.xpath("//p[text()='" + mensagem + "']");
     }

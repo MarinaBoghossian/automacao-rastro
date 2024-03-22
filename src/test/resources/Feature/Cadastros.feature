@@ -259,6 +259,15 @@ Feature: Cadastros no Rastro app
     Then sera exibida a mensagem 'Arquivo enviado com sucesso'
     And as alterações do produto editado deve constar na listagem de produtos
 
+  @cadastroprodutodoisitenstexto
+  Scenario: Tentativa de cadastro de produto com dois itens do tipo texto com referências iguais
+    Given que o usuário faça o login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba produtos
+    And realizar o cadastro de produto adicionando dois itens do tipo Texto com a mesma referencia
+    Then devera aparecer o alerta de que a referencia já existe
+
+
+
 
 
 

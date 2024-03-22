@@ -133,6 +133,11 @@ public class Data {
             String nomePortal = "Portal 1";
             return nomePortal;
         }
+        public String nomeCampanha(){
+            String nomeCampanha = "Portal 1";
+            return nomeCampanha;
+        }
+
 
 
 
