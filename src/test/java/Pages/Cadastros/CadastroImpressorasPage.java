@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class CadastroImpressorasPage {
 
-    private By subMenuImpressoras = By.xpath("//a[@href='#/printers-list']");
+    private By subMenuImpressoras = By.xpath("//*[@id='MENU.PRINTERS']");
     private By menuCadastros = By.xpath("//span[text()='Cadastros']");
     private By btnNovaImpressora = By.id("button-new");
     private By campoNomeImpressora = By.id("txt-name");

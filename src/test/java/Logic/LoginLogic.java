@@ -37,10 +37,12 @@ public class LoginLogic {
         utils.preencher(loginPage.getCampoSenha(), data.senha());
         utils.clicar(loginPage.getBtnEntrar());
 
-
         utils.pausa(2000);
+        utils.clicar(loginPage.getBtnEscolhaUmaTenant());
+        utils.clicar(loginPage.getBtnTenant(data.tenant()));
+        utils.pausa(1000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
-        utils.clicar(loginPage.getBtnSite());
+        utils.clicar(loginPage.getBtnSite("Automatizados"));
         utils.clicar(loginPage.getBtnEntrarSite());
 
 

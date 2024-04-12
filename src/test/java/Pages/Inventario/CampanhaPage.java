@@ -22,6 +22,10 @@ public class CampanhaPage {
     private By selecaoCheckpoint= By.xpath("");
     private By btnIniciarCheckpoint = By.xpath("//span[text()='Iniciar']");
     private By btnConcluirCheckpoint = By.xpath("//span[text()='Concluir']");
+    private By campoNomeInventario = By.id("txt-name");
+    private By campoObservacoes = By.id("txt-data");
+    private By btnVoltar = By.xpath("//span[text()='Voltar']");
+    private By validacaoLeitura = By.xpath("//div[text()='Sucesso']");
     public By getBtnDetalheCampanha(String nomeCampanha) {
         return btnDetalheCampanha = By.xpath("//td[text()='" + nomeCampanha + "']//following::p-button[@styleclass='p-button-info']");
     }
@@ -31,7 +35,7 @@ public class CampanhaPage {
     public By getBtnDeletarCampanha(String nomeCampanha) {
         return btnDeletarCampanha = By.xpath("//td[text()='" + nomeCampanha + "']//following::p-button[@styleclass='p-button-danger']");}
     public By getSelecaoCheckpoint(String nomeCheckpoint){
-        return selecaoCheckpoint = By.xpath("//div[text()=' " + nomeCheckpoint + " ']");
+        return selecaoCheckpoint = By.xpath("//div[text()=' "+nomeCheckpoint+" ']");
     }
 
     public By getSubMenuInventario() {
@@ -88,5 +92,21 @@ public class CampanhaPage {
 
     public By getValidacaoExcluirCampanha() {
         return validacaoExcluirCampanha;
+    }
+
+    public By getCampoNomeInventario() {
+        return campoNomeInventario;
+    }
+
+    public By getCampoObservacoes() {
+        return campoObservacoes;
+    }
+
+    public By getValidacaoLeitura() {
+        return validacaoLeitura;
+    }
+
+    public By getBtnVoltar() {
+        return btnVoltar;
     }
 }

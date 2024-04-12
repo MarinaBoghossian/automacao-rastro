@@ -36,7 +36,9 @@ public class LoginPage {
 
 	private By btnEscolhaUmSite = By.xpath("//span[text()='Escolha um site']");
 
-	private By btnSite = By.xpath("//*[@id='pr_id_3_list']/p-dropdownitem/li");
+	private By btnSite = By.xpath("");
+	private By btnTenant = By.xpath("");
+	private By btnEscolhaUmaTenant = By.xpath("//span[text()='Escolha uma tenant']");
 
 	private By btnEntrarSite = By.xpath("//span[text()='Entrar']");
 
@@ -72,9 +74,12 @@ public By getBtnEscolhaUmSite() {
 	return btnEscolhaUmSite;
 }
 
-public By getBtnSite() {
-	return btnSite;
+public By getBtnSite(String nomeSite) {
+	return btnSite = By.xpath("//span[text()='" + nomeSite + "']");
 }
+public By getBtnTenant(String nomeTenant) {
+		return btnSite = By.xpath("//span[text()='" + nomeTenant + "']");
+	}
 
 public By getBtnEntrarSite() {
 	return btnEntrarSite;
@@ -123,6 +128,10 @@ public By getTxtDashboard() {
 
 	public By getValidacaoPaginaRecSenha() {
 		return validacaoPaginaRecSenha;
+	}
+
+	public By getBtnEscolhaUmaTenant() {
+		return btnEscolhaUmaTenant;
 	}
 }
 	

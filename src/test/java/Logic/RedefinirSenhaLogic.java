@@ -4,9 +4,11 @@ import Pages.Cadastros.MenuCadastroPage;
 import Pages.LoginPage;
 import Pages.RedefinirSenhaPage;
 import Utils.Utils;
+import Utils.Data;
 
 public class RedefinirSenhaLogic {
     Utils utils = new Utils();
+    Data data = new Data();
     RedefinirSenhaPage redefinirSenhaPage = new RedefinirSenhaPage();
 
     LoginPage loginPage = new LoginPage();
@@ -53,7 +55,7 @@ public class RedefinirSenhaLogic {
 
         utils.pausa(18000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
-        utils.clicar(loginPage.getBtnSite());
+        utils.clicar(loginPage.getBtnSite(data.site()));
         utils.clicar(loginPage.getBtnEntrarSite());
 
 

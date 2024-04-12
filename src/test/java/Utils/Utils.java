@@ -1,14 +1,14 @@
 package Utils;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Assert;
+import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
+
+import static org.junit.Assert.assertEquals;
 
 public class Utils {
 
@@ -28,7 +28,17 @@ public class Utils {
 		driver.findElement(elemento).sendKeys(texto);
 		
 	}
-	
+	public  void preencherNumero (By elemento, int numero) {
+
+
+		driver.findElement(elemento).sendKeys(hashCode(numero));
+
+    }
+
+	private CharSequence hashCode(int numero) {
+		return null;
+	}
+
 	public void pausa (int tempo)  throws InterruptedException{
 		
 		Thread.sleep(tempo);
@@ -72,6 +82,7 @@ public boolean validarTexto(By elemento, String texto) {
 String TextoTela = driver.findElement(elemento).getText();
 
   assertEquals(texto, TextoTela);
+
 
 
     return false;
@@ -123,16 +134,16 @@ public void obterTexto(By elemento) {
 	public void confirmarAlerta(String mensagemAlerta, String mensagemAlerta2){
 
 		Alert alerta = driver.switchTo().alert();
-		Assert.assertEquals(mensagemAlerta, alerta.getText());
-		Assert.assertEquals(mensagemAlerta2, alerta.getText());
+		assertEquals(mensagemAlerta, alerta.getText());
+		assertEquals(mensagemAlerta2, alerta.getText());
 		alerta.accept();
 
 	}
 
 	public void cancelarAlerta (String mensagemAlerta, String mensagemAlerta2){
 		Alert alerta = driver.switchTo().alert();
-		Assert.assertEquals(mensagemAlerta, alerta.getText());
-		Assert.assertEquals(mensagemAlerta2, alerta.getText());
+		assertEquals(mensagemAlerta, alerta.getText());
+		assertEquals(mensagemAlerta2, alerta.getText());
 		alerta.dismiss();
 	}
 

@@ -9,6 +9,8 @@ import Utils.Utils;
 import org.openqa.selenium.WebDriver;
 import Utils.Data;
 
+
+
 public class CadastroSitesLogic {
 
 
@@ -46,8 +48,9 @@ public class CadastroSitesLogic {
         utils.pausa(2000);
         utils.clicar(cadastroSitesPage.getBtnNovoSite());
         utils.pausa(2000);
-        utils.preencher(cadastroSitesPage.getCampoNomeSite(), data.nomeSite());
-        utils.preencher(cadastroSitesPage.getCampoCNPJ(), data.CNPJ());
+        utils.preencher(cadastroSitesPage.getCampoNomeSite(), data.nomeNovoSite());
+        utils.pausa(500);
+        utils.preencher(cadastroSitesPage.getCampoCNPJ(), "555555555555");
         utils.clicar(cadastroSitesPage.getBtnSalvarSite());
 
     }

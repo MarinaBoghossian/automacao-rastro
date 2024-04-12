@@ -6,26 +6,29 @@ import Utils.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import Utils.Data;
 
 public class LoginStep {
 
 	Utils utils = new Utils();
 	LoginPage loginPage = new LoginPage();
 	LoginLogic loginLogic = new LoginLogic();
+	Data data = new Data();
+
 
 
 	@Given("que o usuario acesse a url")
 	public void que_o_usuario_acesse_a_url() {
-		String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
-		utils.abrirNavegador(url);
+
+		utils.abrirNavegador(data.url());
 
 	}
 
 	@Given("fazer o login com dados validos")
 	public void fazer_o_login_com_dados_validos() throws InterruptedException {
 		utils.pausa(2000);
-		utils.preencher(loginPage.getCampoUsuario(), "marina.lessa@rastreabilidadebrasil.com.br");
-		utils.preencher(loginPage.getCampoSenha(), "102030");
+		utils.preencher(loginPage.getCampoUsuario(), data.usuario());
+		utils.preencher(loginPage.getCampoSenha(), data.senha());
 		utils.clicar(loginPage.getBtnEntrar());
 	}
 
@@ -34,7 +37,7 @@ public class LoginStep {
 	public void escolher_o_site() throws InterruptedException {
 		utils.pausa(2000);
 		utils.clicar(loginPage.getBtnEscolhaUmSite());
-		utils.clicar(loginPage.getBtnSite());
+		utils.clicar(loginPage.getBtnSite(data.site()));
 		utils.clicar(loginPage.getBtnEntrarSite());
 
 	}

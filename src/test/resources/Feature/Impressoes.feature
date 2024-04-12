@@ -46,4 +46,11 @@ Scenario: Impressão Avulsa
     And consultar os detalhes do job requerido e fazer o download
     Then o documento do job será baixado
 
+  @paineldeimpressao
+  Scenario: Painel de impressão
+    Given que o usuário faça login no Rastro
+    When selecionar impressoes e a aba Painel de Impressao
+    And selecionar o leitor e iniciar o painel
+    Then devera ser feita a leitura das impressoes pendentes
+
 

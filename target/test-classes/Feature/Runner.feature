@@ -11,6 +11,7 @@ Feature: Run de testes no Rastro app
     And retornar a listagem e buscar o produto pela descricao
     And o produto cadastrado deve constar na listagem de produtos
 
+
   @cadastrosite
   Scenario: Cadastro de site
     Given que o usuário faça o login no Rastro e esteja no dashboard
@@ -166,4 +167,22 @@ Feature: Run de testes no Rastro app
     And selecionar +Arquivo e fazer o upload do arquivo
     Then sera exibida a mensagem 'Arquivo enviado com sucesso'
     And o produto cadastrado deve constar na listagem de produtos
+
+
+  @cricaodenovacampanha
+  Scenario: Criação de uma nova campanha de inventário
+    Given  que o usuário faça o login no Rastro e esteja no dashboard
+    And ir em inventario e selecionar o submenu campanha
+    When clicar em novo e inserir o nome da campanha
+    Then clicar em salvar e a nova campanha será criada
+
+  @campanhateste
+  Scenario Outline: Fazer uma leitura uma campanha de inventario já existente
+    Given que o usuário faça o login no Rastro  com o usuario <usuario> e esteja no dashboard
+    And ir em inventario e selecionar o submenu campanha
+    When acessar uma campanha existente <nome campanha> e realizar a leitura <nome portal> <nome leitura> dos itens
+    Then fechar navegador
+    Examples:
+      | usuario|nome portal | nome leitura | nome campanha            |
+      |"marina.user1@testetrousseau.com"| "Checkpoint 1"    | "leitura 1"   | "Marina" |
 

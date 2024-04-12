@@ -4,7 +4,7 @@ public class Data {
 
         //login
         public String usuario(){
-                String usuario = "Marina.lessa@testeGS1.com.br";
+                String usuario = "Mariana@rb.com";
                 return usuario;
         }
         public String senha(){
@@ -12,22 +12,32 @@ public class Data {
                 return senha;
         }
        public String url(){
-               String url = "https://rastroapp.rastreabilidadebrasil.com.br/";
+               String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
                return url;
        }
         // cadastro novo usuario
         public String nomeUsuario(){
-            String nomeUsuario = "Marina Teste 2";
+            String nomeUsuario = "Marina User15";
             return nomeUsuario;
         }
         public String novoUsuario(){
-            String usuario = "Marina.lessa2@testeGS1.com.br";
+            String usuario = "marina.teste@teste.com";
             return usuario;
         }
         public String novaSenha(){
             String senha = "102030";
             return senha;
         }
+
+        public String tenant(){
+            String tenant = "Tenant - Automatizados";
+            return tenant;
+        }
+    public String site(){
+        String site = "Automatizados";
+        return site;
+    }
+
 
        //produto
         public String SKU(){
@@ -63,20 +73,12 @@ public class Data {
             return nomeArquivo;
         }
 
-        //checkpoint
-        public String nomeCheckpoint(){
-            String nomeCheckpoint = "Checkpoint 1";
-            return nomeCheckpoint;
-        }
-        public String duracaoCheckpoint(){
-            String duracaoCheckpoint = "300";
-            return duracaoCheckpoint;
-        }
+
 
         //site
-        public String nomeSite(){
-            String nomeSite = "Site 123";
-            return nomeSite;
+        public String nomeNovoSite(){
+            String nomeNovoSite = "Teste 2";
+            return nomeNovoSite;
         }
         public String CNPJ(){
             String CNPJ = "78946325986542";
@@ -85,7 +87,7 @@ public class Data {
 
         //leitor
         public String nomeLeitor(){
-            String nomeLeitor  = "Leitor Office 2";
+            String nomeLeitor  = "Leitor Trousseau 4";
             return nomeLeitor;
         }
         public String nomeModoLista(){
@@ -93,7 +95,7 @@ public class Data {
             return nomeModoLista;
         }
         public String IPLeitor(){
-            String IPLeitor  = "10.101.247.81";
+            String IPLeitor  = "192.168.0.107";
             return IPLeitor;
         }
         public String portaLeitor(){
@@ -117,13 +119,22 @@ public class Data {
             return sessaoLeitor;
         }
         public String nomeEvento(){
-            String nomeEvento = "SERIALIZAÇÃO";
+            String nomeEvento = "FINALIZAÇÃO";
             return nomeEvento;
         }
         public String nomeIntegracao(){
-            String nomeIntegracao = " Entrada ";
+            String nomeIntegracao = " Não tem integração ";
             return nomeIntegracao;
         }
+    //checkpoint
+    public String nomeCheckpoint(){
+        String nomeCheckpoint = "Checkpoint 16";
+        return nomeCheckpoint;
+    }
+    public String duracaoCheckpoint(){
+        String duracaoCheckpoint = "45";
+        return duracaoCheckpoint;
+    }
         public String nomeImpressora(){
             String nomeImpressora = "Impressora 1";
             return nomeImpressora;

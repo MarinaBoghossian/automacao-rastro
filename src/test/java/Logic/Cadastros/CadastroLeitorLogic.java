@@ -50,10 +50,10 @@ public class CadastroLeitorLogic {
         utils.clicar(cadastroLeitoresPage.getCampoSessaoLeitor());
         utils.clicar(cadastroLeitoresPage.getNomeSessaoLeitor(data.sessaoLeitor()));
         utils.apagar(cadastroLeitoresPage.getCampoEstimativaTag());
-        utils.preencher(cadastroLeitoresPage.getCampoEstimativaTag(), "5");
+        utils.preencher(cadastroLeitoresPage.getCampoEstimativaTag(), "32");
         utils.preencher(cadastroLeitoresPage.getCampoIDServidor(), "123656");
-        utils.preencher(cadastroLeitoresPage.getCampoIPServidor(), "136256");
-        utils.preencher(cadastroLeitoresPage.getCampoIdentificacaoServidor(), "351846");
+        utils.preencher(cadastroLeitoresPage.getCampoIPServidor(), "10.255.28.95");
+        utils.preencher(cadastroLeitoresPage.getCampoIdentificacaoServidor(), "TROUS");
         utils.clicar(cadastroLeitoresPage.getBtnSalvarLeitor());
 
 

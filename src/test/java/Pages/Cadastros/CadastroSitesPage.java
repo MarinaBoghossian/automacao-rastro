@@ -8,7 +8,7 @@ public class CadastroSitesPage {
 
     private By btnNovoSite = By.id("button-new");
     private By campoNomeSite = By.id("txt-name");
-    private By campoCNPJ = By.xpath("//*[@id='txt-cnpj']/input");
+    private By campoCNPJ = By.xpath("//input[@class='p-inputtext p-component p-element p-inputmask']");
     private By btnSalvarSite = By.id("button-save");
     private By txtCadastroSite = By.xpath("//p[text()='O site foi cadastrado com sucesso!']");
 

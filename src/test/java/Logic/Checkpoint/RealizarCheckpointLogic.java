@@ -4,6 +4,7 @@ import Logic.LoginLogic;
 import Pages.Checkpoint.RealizarCheckpointPage;
 import Pages.LoginPage;
 import Utils.Utils;
+import Utils.Data;
 
 public class RealizarCheckpointLogic {
     LoginLogic loginLogic = new LoginLogic();
@@ -11,6 +12,7 @@ public class RealizarCheckpointLogic {
     MenuCheckpointLogic menuCheckpointLogic = new MenuCheckpointLogic();
     RealizarCheckpointPage realizarCheckpointPage = new RealizarCheckpointPage();
     LoginPage loginPage = new LoginPage();
+    Data data = new Data();
 
 
 
@@ -20,14 +22,14 @@ public class RealizarCheckpointLogic {
 
 
         utils.pausa(2000);
-        utils.preencher(loginPage.getCampoUsuario(), "marina@teste1.com");
-        utils.preencher(loginPage.getCampoSenha(), "102030");
+        utils.preencher(loginPage.getCampoUsuario(), data.usuario());
+        utils.preencher(loginPage.getCampoSenha(), data.senha());
         utils.clicar(loginPage.getBtnEntrar());
 
 
         utils.pausa(9000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
-        utils.clicar(loginPage.getBtnSite());
+        utils.clicar(loginPage.getBtnSite("Automatizados"));
         utils.clicar(loginPage.getBtnEntrarSite());
 
 

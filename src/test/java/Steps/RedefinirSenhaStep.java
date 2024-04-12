@@ -8,6 +8,7 @@ import Utils.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import Utils.Data;
 
 
 public class RedefinirSenhaStep {
@@ -16,6 +17,7 @@ public class RedefinirSenhaStep {
     LoginLogic loginLogic = new LoginLogic();
     LoginPage loginPage = new LoginPage();
     Utils utils = new Utils();
+    Data data = new Data();
     RedefinirSenhaPage redefinirSenhaPage = new RedefinirSenhaPage();
     @Given("que o usuário resete sua senha")
     public void que_o_usuário_resete_sua_senha() throws InterruptedException {
@@ -53,10 +55,10 @@ public class RedefinirSenhaStep {
         utils.clicar(loginPage.getBtnEntrar());
         utils.pausa(2000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
-        utils.clicar(loginPage.getBtnSite());
+        utils.clicar(loginPage.getBtnSite(data.site()));
         utils.clicar(loginPage.getBtnEntrarSite());utils.pausa(2000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
-        utils.clicar(loginPage.getBtnSite());
+        utils.clicar(loginPage.getBtnSite(data.site()));
         utils.clicar(loginPage.getBtnEntrarSite());
     }
     @Given("que o usuario esteja na redefinicao de senha")

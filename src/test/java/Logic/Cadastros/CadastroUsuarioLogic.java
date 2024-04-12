@@ -37,7 +37,7 @@ public class CadastroUsuarioLogic {
         utils.preencher(cadastroUsuarioPage.getCampoSenha(), data.novaSenha());
         utils.preencher(cadastroUsuarioPage.getCampoConfirmarSenha(), data.novaSenha());
         utils.clicar(cadastroUsuarioPage.getBtnUsuarioAdministrador());
-        utils.clicar(cadastroUsuarioPage.getBtnUsuarioMatriz());
+       // utils.clicar(cadastroUsuarioPage.getBtnUsuarioMatriz());
         utils.clicar(cadastroUsuarioPage.getBtnSalvarUsuario());
         utils.pausa(1000);
     }

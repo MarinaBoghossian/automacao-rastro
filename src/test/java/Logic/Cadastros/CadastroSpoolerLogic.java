@@ -30,8 +30,8 @@ public class CadastroSpoolerLogic {
         WebDriver driver;
         utils.pausa(2000);
         utils.clicar(cadastroSpoolerPage.getBtnNovoSpooler());
-        utils.preencher(cadastroSpoolerPage.getCampoNomeSpooler(), "Teste 3");
-        utils.preencher(cadastroSpoolerPage.getCampoDescricaoSpooler(), "Spooler de impressão 2");
+        utils.preencher(cadastroSpoolerPage.getCampoNomeSpooler(), "Teste 1");
+        utils.preencher(cadastroSpoolerPage.getCampoDescricaoSpooler(), "Spooler de impressão 1");
         utils.clicar(cadastroSpoolerPage.getBtnSalvarSpooler());}
 
     public void validarCadastroSpooler()throws InterruptedException {

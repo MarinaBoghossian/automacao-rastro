@@ -5,7 +5,7 @@ Feature: Cadastros no Rastro app
 
 
 
-  @cadastroprodutoSKU
+  @CadastroprodutoSKU
   Scenario: Cadastro de produto Tenant por SKU
     Given que o usuário faça o login no Rastro e esteja no dashboard
     When ir em cadastro e selecionar a aba produtos
