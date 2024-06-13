@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class CadastroProdutosPage {
 
     private By subMenuProduto = By.xpath("//span[text()='Produtos']");
-    private By btnNovoProduto = By.id("button-new");
+    private By btnNovoProduto = By.xpath("//span[text()='Novo']");
     private By campoSKU = By.id("txt-sku");
     private By campoGTIN = By.id("txt-gtin");
     private By campoDescricao = By.id("txt-description");

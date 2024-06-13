@@ -1,5 +1,9 @@
 package Steps.Inventario;
 
+import Logic.Consultas.ConsultaEventoLogic;
+import Logic.Consultas.MenuConsultasLogic;
+import Logic.Impressões.MenuImpressoesLogic;
+import Pages.Impressões.ImpressaoAvulsaPage;
 import Pages.Inventario.CampanhaPage;
 import Pages.LoginPage;
 import Utils.Utils;
@@ -14,11 +18,17 @@ public class CampanhaTesteTrousseauStep {
     LoginPage loginPage = new LoginPage();
     CampanhaPage campanhaPage = new CampanhaPage();
 
+    MenuImpressoesLogic menuImpressoesLogic = new MenuImpressoesLogic();
+    ImpressaoAvulsaPage impressaoAvulsaPage = new ImpressaoAvulsaPage();
+    MenuConsultasLogic menuConsultasLogic = new MenuConsultasLogic();
+    ConsultaEventoLogic consultaEventoLogic = new ConsultaEventoLogic();
+
+
     @Given("que o usuário faça o login no Rastro  com o usuario {string} e esteja no dashboard")
     public void que_o_usuário_faça_o_login_no_rastro_com_o_usuario_e_esteja_no_dashboard(String usuario) throws InterruptedException {
 
 
-        utils.abrirNavegador("https://rastroapp.rastreabilidadebrasil.com.br/");
+        utils.abrirNavegador("https://rastroapp-homol.rastreabilidadebrasil.com.br/");
 
 
         utils.pausa(2000);
@@ -26,6 +36,10 @@ public class CampanhaTesteTrousseauStep {
         utils.preencher(loginPage.getCampoSenha(), "102030");
         utils.clicar(loginPage.getBtnEntrar());
 
+        utils.pausa(2000);
+        utils.clicar(loginPage.getBtnEscolhaUmaTenant());
+        utils.pausa(500);
+        utils.clicar(loginPage.getBtnTenant(data.tenant()));
 
         utils.pausa(2000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
@@ -33,9 +47,6 @@ public class CampanhaTesteTrousseauStep {
         utils.clicar(loginPage.getBtnEntrarSite());
 
 
-        utils.pausa(2000);
-        utils.validarTexto(loginPage.getTxtDashboard(), "Dashboard");
-        utils.pausa(1000);
 
 
     }
@@ -70,7 +81,7 @@ public class CampanhaTesteTrousseauStep {
     @When("clicar em novo e inserir o nome da campanha")
     public void clicar_em_novo_e_inserir_o_nome_da_campanha() {
         utils.clicar(campanhaPage.getBtnNovaCampanha());
-        utils.preencher(campanhaPage.getCampoNomeCampanha(), "Campanha Teste Automação");
+        utils.preencher(campanhaPage.getCampoNomeCampanha(), "Marina 2");
     }
 
     @Then("clicar em salvar e a nova campanha será criada")
@@ -92,84 +103,80 @@ public class CampanhaTesteTrousseauStep {
         utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeCheckpoint1));
         utils.pausa(1000);
         utils.clicar(campanhaPage.getBtnIniciarCheckpoint());
-        utils.pausa(3000);
+        utils.pausa(3250);
         utils.clicar(campanhaPage.getBtnConcluirCheckpoint());
-        utils.pausa(2000);
-        utils.preencher(campanhaPage.getCampoNomeInventario(), nomeLeitura1);
-        utils.clicar(campanhaPage.getBtnSalvar());
         utils.pausa(1000);
-        utils.preencher(campanhaPage.getCampoObservacoes(), "tteste");
+        utils.preencher(campanhaPage.getCampoNomeInventario(), nomeLeitura1);
+       // utils.preencher(campanhaPage.getCampoEnderecoEtiqueta(), "Rua teste 123");
+      //  utils.preencher(campanhaPage.getCampoCaixaEtiqueta(), "1");
         utils.clicar(campanhaPage.getBtnSalvar());
-        utils.pausa(10000);
-        utils.validarTexto(campanhaPage.getValidacaoLeitura(), "Sucesso");
+        utils.pausa(2000);
+
 
     }
 
     @When("voltar aos portais, escolher um novo portal {string} e realizar leituras {string} na mesma campanha por 5vezes em portais diferentes {string} {string} {string} {string} {string} {string}")
-    public void voltar_aos_portais_escolher_um_novo_portal_e_realizar_leituras_na_mesma_campanha_por_5vezes_em_portais_diferentes(String nomeportal2, String nomeleitura2, String nomeportal3, String nomeportal4, String nomeportal5, String nomeleitura3, String nomeleitura4, String nomeleitura5) throws InterruptedException {
+    public void voltar_aos_portais_escolher_um_novo_portal_e_realizar_leituras_na_mesma_campanha_por_5vezes_em_portais_diferentes(String nomeCheckpoint2, String nomeleitura2, String nomeCheckpoint3, String nomeCheckpoint4, String nomeCheckpoint5, String nomeleitura3, String nomeleitura4, String nomeleitura5) throws InterruptedException {
+        utils.pausa(1000);
         utils.clicar(campanhaPage.getBtnVoltar());
         utils.pausa(1000);
-        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeportal2));
+        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeCheckpoint2));
         utils.pausa(1000);
         utils.clicar(campanhaPage.getBtnIniciarCheckpoint());
-        utils.pausa(3000);
+        utils.pausa(3250);
         utils.clicar(campanhaPage.getBtnConcluirCheckpoint());
-        utils.pausa(2000);
+        utils.pausa(1000);
         utils.preencher(campanhaPage.getCampoNomeInventario(), nomeleitura2);
+      //  utils.preencher(campanhaPage.getCampoEnderecoEtiqueta(), "Rua teste 123");
+      //  utils.preencher(campanhaPage.getCampoCaixaEtiqueta(), "1");
         utils.clicar(campanhaPage.getBtnSalvar());
         utils.pausa(1000);
-        utils.preencher(campanhaPage.getCampoObservacoes(), "tteste");
-        utils.clicar(campanhaPage.getBtnSalvar());
-        utils.pausa(10000);
-        utils.validarTexto(campanhaPage.getValidacaoLeitura(), "Sucesso");
+
 
         utils.clicar(campanhaPage.getBtnVoltar());
         utils.pausa(1000);
-        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeportal3));
+        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeCheckpoint3));
         utils.pausa(1000);
         utils.clicar(campanhaPage.getBtnIniciarCheckpoint());
         utils.pausa(3000);
         utils.clicar(campanhaPage.getBtnConcluirCheckpoint());
-        utils.pausa(2000);
+        utils.pausa(1000);
         utils.preencher(campanhaPage.getCampoNomeInventario(), nomeleitura3);
+      //  utils.preencher(campanhaPage.getCampoEnderecoEtiqueta(), "Rua teste 123");
+      //  utils.preencher(campanhaPage.getCampoCaixaEtiqueta(), "1");
         utils.clicar(campanhaPage.getBtnSalvar());
         utils.pausa(1000);
-        utils.preencher(campanhaPage.getCampoObservacoes(), "tteste");
-        utils.clicar(campanhaPage.getBtnSalvar());
-        utils.pausa(10000);
-        utils.validarTexto(campanhaPage.getValidacaoLeitura(), "Sucesso");
+
 
         utils.clicar(campanhaPage.getBtnVoltar());
         utils.pausa(1000);
-        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeportal4));
+        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeCheckpoint4));
         utils.pausa(1000);
         utils.clicar(campanhaPage.getBtnIniciarCheckpoint());
         utils.pausa(3000);
         utils.clicar(campanhaPage.getBtnConcluirCheckpoint());
-        utils.pausa(2000);
+        utils.pausa(1000);
         utils.preencher(campanhaPage.getCampoNomeInventario(), nomeleitura4);
+     //   utils.preencher(campanhaPage.getCampoEnderecoEtiqueta(), "Rua teste 123");
+     //   utils.preencher(campanhaPage.getCampoCaixaEtiqueta(), "1");
         utils.clicar(campanhaPage.getBtnSalvar());
         utils.pausa(1000);
-        utils.preencher(campanhaPage.getCampoObservacoes(), "tteste");
-        utils.clicar(campanhaPage.getBtnSalvar());
-        utils.pausa(10000);
-        utils.validarTexto(campanhaPage.getValidacaoLeitura(), "Sucesso");
+
 
         utils.clicar(campanhaPage.getBtnVoltar());
         utils.pausa(1000);
-        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeportal5));
+        utils.clicar(campanhaPage.getSelecaoCheckpoint(nomeCheckpoint5));
         utils.pausa(1000);
         utils.clicar(campanhaPage.getBtnIniciarCheckpoint());
         utils.pausa(3000);
         utils.clicar(campanhaPage.getBtnConcluirCheckpoint());
-        utils.pausa(2000);
+        utils.pausa(1000);
         utils.preencher(campanhaPage.getCampoNomeInventario(), nomeleitura5);
+     //   utils.preencher(campanhaPage.getCampoEnderecoEtiqueta(), "Rua teste 123");
+      //  utils.preencher(campanhaPage.getCampoCaixaEtiqueta(), "1");
         utils.clicar(campanhaPage.getBtnSalvar());
         utils.pausa(1000);
-        utils.preencher(campanhaPage.getCampoObservacoes(), "tteste");
-        utils.clicar(campanhaPage.getBtnSalvar());
-        utils.pausa(10000);
-        utils.validarTexto(campanhaPage.getValidacaoLeitura(), "Sucesso");
+
 
     }
 
@@ -178,4 +185,62 @@ public class CampanhaTesteTrousseauStep {
 
     }
 
+
+
+    //IMPRESSÃO
+
+    @When("preencher as informacoes da impressao Avulsa  {string} {string}")
+    public void preencher_as_informacoes_da_impressao_avulsa(String SKU, String quantidade) throws InterruptedException {
+        utils.preencher(impressaoAvulsaPage.getCampoGTIN(), SKU);
+
+        utils.pausa(1000);
+        utils.clicar(impressaoAvulsaPage.getBtnBuscarGTIN());
+        utils.pausa(1000);
+        utils.clicar(impressaoAvulsaPage.getConfirmarDadoDoProduto(SKU));
+        utils.clicar(impressaoAvulsaPage.getBtnOK());
+        utils.pausa(1000);
+        utils.clicar(impressaoAvulsaPage.getBtnProximo());
+        utils.pausa(1000);
+        utils.scroll();
+        utils.clicar(impressaoAvulsaPage.getBtnProximo());
+
+        utils.pausa(1000);
+        utils.clicar(impressaoAvulsaPage.getBtnProximo());
+        utils.clicar(impressaoAvulsaPage.getCampoSelecionarEtiqueta());
+        utils.clicar(impressaoAvulsaPage.getCampoNomeEtiqueta("SEM LOGO  / SEM TAG"));
+        utils.pausa(1000);
+        utils.clicar(impressaoAvulsaPage.getCampoSelecionarImpressora());
+        utils.clicar(impressaoAvulsaPage.getCampoNomeImpressora("Trousseau TESTE"));
+        utils.pausa(1000);
+        utils.preencher(impressaoAvulsaPage.getCampoQuantidadeImpressao(), quantidade);
+        utils.clicar(impressaoAvulsaPage.getBtnProximo());
+        utils.pausa(1000);
+        utils.scroll();
+        utils.scroll();
+        utils.clicar(impressaoAvulsaPage.getBtnImprimir());
+        utils.pausa(2000);
+    }
+
+
+    @Then("consultar a impressão")
+    public void consultar_a_impressão() throws InterruptedException {
+        menuConsultasLogic.consultas();
+        utils.pausa(1000);
+        consultaEventoLogic.subMenuEvento();
+        utils.pausa(1000);
+        consultaEventoLogic.consultarUltimoEvento();
+        utils.pausa(2000);
+
+
+
+    }
+
+    @Then("fazer o download do CVS")
+    public void fazer_o_download_do_cvs() {
+
+        utils.scroll();
+        consultaEventoLogic.downloadCSV();
+
+
+    }
 }

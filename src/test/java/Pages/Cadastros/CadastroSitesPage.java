@@ -11,6 +11,7 @@ public class CadastroSitesPage {
     private By campoCNPJ = By.xpath("//input[@class='p-inputtext p-component p-element p-inputmask']");
     private By btnSalvarSite = By.id("button-save");
     private By txtCadastroSite = By.xpath("//p[text()='O site foi cadastrado com sucesso!']");
+    private By btnOK = By.id("button-ok");
 
     public By getSubMenuSites() {
         return subMenuSites;
@@ -38,6 +39,10 @@ public class CadastroSitesPage {
 
     public By getSair() {
         return sair;
+    }
+
+    public By getBtnOK() {
+        return btnOK;
     }
 }
 

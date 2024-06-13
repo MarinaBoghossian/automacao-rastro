@@ -10,7 +10,7 @@ Scenario: Criação de uma nova campanha de inventário
   Then clicar em salvar e a nova campanha será criada
 
 @user1
-Scenario Outline: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 1
+Scenario Outline: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 1
   Given que o usuário faça o login no Rastro  com o usuario <usuario> e esteja no dashboard
   And ir em inventario e selecionar o submenu campanha
   When acessar uma campanha existente <nome campanha> e realizar a leitura <nome portal> <nome leitura> dos itens
@@ -18,18 +18,21 @@ Scenario Outline: Fazer uma leitura com 5 mil itens em uma campanha de inventari
   Then cada leitura devera ser finalizada com no maximo 1500itens e no total devera ter por volta de 5000itens
   And fechar navegador
   Examples:
-   | usuario                          |nome portal        | nome leitura         | nome campanha              | nome leitura2      | nome portal2    | nome leitura3      | nome portal3    | nome leitura4   | nome portal4    | nome leitura5 | nome portal5      |
-   |"marina.user1@testetrousseau.com" | "Checkpoint 1"    | "Primeira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 5"  | "leitura 3"        | "Checkpoint 9"  | "leitura 4"     | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15"   |
-   |"marina.user1@testetrousseau.com" | "Checkpoint 1"    | "Primeira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 5"  | "leitura 3"        | "Checkpoint 9"  | "leitura 4"     | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15"   |
-   |"marina.user1@testetrousseau.com" | "Checkpoint 1"    | "Primeira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 5"  | "leitura 3"        | "Checkpoint 9"  | "leitura 4"     | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15"   |
-   |"marina.user1@testetrousseau.com" | "Checkpoint 1"    | "Primeira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 5"  | "leitura 3"        | "Checkpoint 9"  | "leitura 4"     | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15"   |
-   |"marina.user1@testetrousseau.com" | "Checkpoint 1"    | "Primeira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 5"  | "leitura 3"        | "Checkpoint 9"  | "leitura 4"     | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15"   |
-   |"marina.user1@testetrousseau.com" | "Checkpoint 1"    | "Primeira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 5"  | "leitura 3"        | "Checkpoint 9"  | "leitura 4"     | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15"   |
-   |"marina.user1@testetrousseau.com" | "Checkpoint 1"    | "Primeira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 5"  | "leitura 3"        | "Checkpoint 9"  | "leitura 4"     | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15"   |
+    | usuario                                     | nome portal    | nome leitura       | nome campanha | nome leitura2 | nome portal2   | nome leitura3 | nome portal3   | nome leitura4 | nome portal4   | nome leitura5 | nome portal5   |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 1" | "Primeira Leitura" | "Teste 8"     | "leitura 2"   | "Checkpoint 6" | "leitura 3"   | "Checkpoint 2" | "leitura 4"   | "Checkpoint 1" | "leitura 1"   | "Checkpoint 3" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 2" | "Segunda Leitura"  | "Teste 8"     | "leitura 2"   | "Checkpoint 4" | "leitura 3"   | "Checkpoint 4" | "leitura 4"   | "Checkpoint 3" | "leitura 5"   | "Checkpoint 5" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 3" | "Terceira Leitura" | "Teste 8"     | "leitura 2"   | "Checkpoint 3" | "leitura 3"   | "Checkpoint 6" | "leitura 4"   | "Checkpoint 5" | "leitura 5"   | "Checkpoint 8" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 4" | "Quarta Leitura"   | "Teste 8"     | "leitura 2"   | "Checkpoint 1" | "leitura 3"   | "Checkpoint 8" | "leitura 4"   | "Checkpoint 7" | "leitura 5"   | "Checkpoint 6" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 5" | "Quinta Leitura"   | "Teste 8"     | "leitura 2"   | "Checkpoint 8" | "leitura 3"   | "Checkpoint 1" | "leitura 4"   | "Checkpoint 8" | "leitura 5"   | "Checkpoint 7" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 6" | "Sexta Leitura"    | "Teste 8"     | "leitura 2"   | "Checkpoint 2" | "leitura 3"   | "Checkpoint 3" | "leitura 4"   | "Checkpoint 6" | "leitura 5"   | "Checkpoint 2" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 7" | "Setima Leitura"   | "Teste 8"     | "leitura 2"   | "Checkpoint 5" | "leitura 3"   | "Checkpoint 5" | "leitura 4"   | "Checkpoint 3" | "leitura 5"   | "Checkpoint 1" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 8" | "Oitava Leitura"   | "Teste 8"     | "leitura 2"   | "Checkpoint 7" | "leitura 3"   | "Checkpoint 7" | "leitura 4"   | "Checkpoint 5" | "leitura 5"   | "Checkpoint 4" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 1" | "Nona Leitura"     | "Teste 8"     | "leitura 2"   | "Checkpoint 6" | "leitura 3"   | "Checkpoint 5" | "leitura 4"   | "Checkpoint 4" | "leitura 5"   | "Checkpoint 5" |
+    | "marina.lessa@rastreabilidadebrasil.com.br" | "Checkpoint 8" | "Decima Leitura"   | "Teste 8"     | "leitura 2"   | "Checkpoint 5" | "leitura 3"   | "Checkpoint 2" | "leitura 4"   | "Checkpoint 2" | "leitura 5"   | "Checkpoint 3" |
 
 
-@user2
-Scenario Outline: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 2
+  @user2
+  Scenario Outline: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 2
     Given que o usuário faça o login no Rastro  com o usuario <usuario> e esteja no dashboard
     And ir em inventario e selecionar o submenu campanha
     When acessar uma campanha existente <nome campanha> e realizar a leitura <nome portal> <nome leitura> dos itens
@@ -37,19 +40,21 @@ Scenario Outline: Fazer uma leitura com 5 mil itens em uma campanha de inventari
     Then cada leitura devera ser finalizada com no maximo 1500itens e no total devera ter por volta de 5000itens
     And fechar navegador
     Examples:
-      | usuario                          |nome portal        | nome leitura         | nome campanha              | nome leitura2      | nome portal2    | nome leitura3      | nome portal3    | nome leitura4   | nome portal4    | nome leitura5 | nome portal5      |
-      |"marina.user2@testetrousseau.com" | "Checkpoint 2"    | "Segunda Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
-      |"marina.user2@testetrousseau.com" | "Checkpoint 2"    | "Segunda Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
-      |"marina.user2@testetrousseau.com" | "Checkpoint 2"    | "Segunda Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
-      |"marina.user2@testetrousseau.com" | "Checkpoint 2"    | "Segunda Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
-      |"marina.user2@testetrousseau.com" | "Checkpoint 2"    | "Segunda Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
-      |"marina.user2@testetrousseau.com" | "Checkpoint 2"    | "Segunda Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
-      |"marina.user2@testetrousseau.com" | "Checkpoint 2"    | "Segunda Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
-
+      | usuario                           | nome portal     | nome leitura       | nome campanha | nome leitura2 | nome portal2    | nome leitura3 | nome portal3    | nome leitura4 | nome portal4    | nome leitura5 | nome portal5    |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 1"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 15" | "leitura 3"   | "Checkpoint 2"  | "leitura 4"   | "Checkpoint 1"  | "leitura 1"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 2"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 14" | "leitura 3"   | "Checkpoint 4"  | "leitura 4"   | "Checkpoint 3"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 3"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 13" | "leitura 3"   | "Checkpoint 6"  | "leitura 4"   | "Checkpoint 5"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 4"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 12" | "leitura 3"   | "Checkpoint 8"  | "leitura 4"   | "Checkpoint 7"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 5"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 11" | "leitura 3"   | "Checkpoint 10" | "leitura 4"   | "Checkpoint 9"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 6"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 10" | "leitura 3"   | "Checkpoint 12" | "leitura 4"   | "Checkpoint 11" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 7"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 9"  | "leitura 3"   | "Checkpoint 14" | "leitura 4"   | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 8"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 7"  | "leitura 3"   | "Checkpoint 1"  | "leitura 4"   | "Checkpoint 15" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 9"  | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 6"  | "leitura 3"   | "Checkpoint 15" | "leitura 4"   | "Checkpoint 14" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user2@testetrousseau.com" | "Checkpoint 10" | "Primeira Leitura" | Teste 2"      | "leitura 2"   | "Checkpoint 5"  | "leitura 3"   | "Checkpoint 9"  | "leitura 4"   | "Checkpoint 12" | "leitura 5"   | "Checkpoint 15" |
 
 
   @user3
-  Scenario Outline: Criar campanha invetario com 10 mil itens - usuário 3
+  Scenario Outline: Criar campanha invetario com 2 mil itens - usuário 3
     Given que o usuário faça o login no Rastro  com o usuario <usuario> e esteja no dashboard
     And ir em inventario e selecionar o submenu campanha
     When acessar uma campanha existente <nome campanha> e realizar a leitura <nome portal> <nome leitura> dos itens
@@ -57,15 +62,17 @@ Scenario Outline: Fazer uma leitura com 5 mil itens em uma campanha de inventari
     Then cada leitura devera ser finalizada com no maximo 1500itens e no total devera ter por volta de 5000itens
     And fechar navegador
     Examples:
-      | usuario                          |nome portal        | nome leitura         | nome campanha              | nome leitura2      | nome portal2    | nome leitura3      | nome portal3    | nome leitura4   | nome portal4    | nome leitura5 | nome portal5      |
-      |"marina.user3@testetrousseau.com" | "Checkpoint 3"    | "Terceira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 7"  | "leitura 3"        | "Checkpoint 11"  | "leitura 4"     | "Checkpoint 18" | "leitura 5"   | "Checkpoint 16"   |
-      |"marina.user3@testetrousseau.com" | "Checkpoint 3"    | "Terceira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 7"  | "leitura 3"        | "Checkpoint 11"  | "leitura 4"     | "Checkpoint 18" | "leitura 5"   | "Checkpoint 16"   |
-      |"marina.user3@testetrousseau.com" | "Checkpoint 3"    | "Terceira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 7"  | "leitura 3"        | "Checkpoint 11"  | "leitura 4"     | "Checkpoint 18" | "leitura 5"   | "Checkpoint 16"   |
-      |"marina.user3@testetrousseau.com" | "Checkpoint 3"    | "Terceira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 7"  | "leitura 3"        | "Checkpoint 11"  | "leitura 4"     | "Checkpoint 18" | "leitura 5"   | "Checkpoint 16"   |
-      |"marina.user3@testetrousseau.com" | "Checkpoint 3"    | "Terceira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 7"  | "leitura 3"        | "Checkpoint 11"  | "leitura 4"     | "Checkpoint 18" | "leitura 5"   | "Checkpoint 16"   |
-      |"marina.user3@testetrousseau.com" | "Checkpoint 3"    | "Terceira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 7"  | "leitura 3"        | "Checkpoint 11"  | "leitura 4"     | "Checkpoint 18" | "leitura 5"   | "Checkpoint 16"   |
-      |"marina.user3@testetrousseau.com" | "Checkpoint 3"    | "Terceira Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 7"  | "leitura 3"        | "Checkpoint 11"  | "leitura 4"     | "Checkpoint 18" | "leitura 5"   | "Checkpoint 16"   |
-
+      | usuario                           | nome portal     | nome leitura       | nome campanha | nome leitura2 | nome portal2    | nome leitura3 | nome portal3    | nome leitura4 | nome portal4    | nome leitura5 | nome portal5    |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 1"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 15" | "leitura 3"   | "Checkpoint 2"  | "leitura 4"   | "Checkpoint 1"  | "leitura 1"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 2"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 14" | "leitura 3"   | "Checkpoint 4"  | "leitura 4"   | "Checkpoint 3"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 3"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 13" | "leitura 3"   | "Checkpoint 6"  | "leitura 4"   | "Checkpoint 5"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 4"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 12" | "leitura 3"   | "Checkpoint 8"  | "leitura 4"   | "Checkpoint 7"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 5"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 11" | "leitura 3"   | "Checkpoint 10" | "leitura 4"   | "Checkpoint 9"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 6"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 10" | "leitura 3"   | "Checkpoint 12" | "leitura 4"   | "Checkpoint 11" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 7"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 9"  | "leitura 3"   | "Checkpoint 14" | "leitura 4"   | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 8"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 7"  | "leitura 3"   | "Checkpoint 1"  | "leitura 4"   | "Checkpoint 15" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 9"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 6"  | "leitura 3"   | "Checkpoint 15" | "leitura 4"   | "Checkpoint 14" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user3@testetrousseau.com" | "Checkpoint 10" | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 5"  | "leitura 3"   | "Checkpoint 9"  | "leitura 4"   | "Checkpoint 12" | "leitura 5"   | "Checkpoint 15" |
 
 
   @user4
@@ -77,14 +84,17 @@ Scenario Outline: Fazer uma leitura com 5 mil itens em uma campanha de inventari
     Then cada leitura devera ser finalizada com no maximo 1500itens e no total devera ter por volta de 5000itens
     And fechar navegador
     Examples:
-      | usuario                          |nome portal        | nome leitura         | nome campanha              | nome leitura2      | nome portal2    | nome leitura3      | nome portal3    | nome leitura4   | nome portal4    | nome leitura5 | nome portal5      |
-      |"marina.user4@testetrousseau.com" | "Checkpoint 4"    | "Quarta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 3"  | "leitura 3"        | "Checkpoint 7"  | "leitura 4"     | "Checkpoint 10" | "leitura 5"   | "Checkpoint 13"   |
-      |"marina.user4@testetrousseau.com" | "Checkpoint 4"    | "Quarta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 3"  | "leitura 3"        | "Checkpoint 7"  | "leitura 4"     | "Checkpoint 10" | "leitura 5"   | "Checkpoint 13"   |
-      |"marina.user4@testetrousseau.com" | "Checkpoint 4"    | "Quarta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 3"  | "leitura 3"        | "Checkpoint 7"  | "leitura 4"     | "Checkpoint 10" | "leitura 5"   | "Checkpoint 13"   |
-      |"marina.user4@testetrousseau.com" | "Checkpoint 4"    | "Quarta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 3"  | "leitura 3"        | "Checkpoint 7"  | "leitura 4"     | "Checkpoint 10" | "leitura 5"   | "Checkpoint 13"   |
-      |"marina.user4@testetrousseau.com" | "Checkpoint 4"    | "Quarta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 3"  | "leitura 3"        | "Checkpoint 7"  | "leitura 4"     | "Checkpoint 10" | "leitura 5"   | "Checkpoint 13"   |
-      |"marina.user4@testetrousseau.com" | "Checkpoint 4"    | "Quarta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 3"  | "leitura 3"        | "Checkpoint 7"  | "leitura 4"     | "Checkpoint 10" | "leitura 5"   | "Checkpoint 13"   |
-      |"marina.user4@testetrousseau.com" | "Checkpoint 4"    | "Quarta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 3"  | "leitura 3"        | "Checkpoint 7"  | "leitura 4"     | "Checkpoint 10" | "leitura 5"   | "Checkpoint 13"   |
+      | usuario                           | nome portal     | nome leitura       | nome campanha | nome leitura2 | nome portal2    | nome leitura3 | nome portal3    | nome leitura4 | nome portal4    | nome leitura5 | nome portal5    |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 1"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 15" | "leitura 3"   | "Checkpoint 2"  | "leitura 4"   | "Checkpoint 1"  | "leitura 1"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 2"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 14" | "leitura 3"   | "Checkpoint 4"  | "leitura 4"   | "Checkpoint 3"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 3"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 13" | "leitura 3"   | "Checkpoint 6"  | "leitura 4"   | "Checkpoint 5"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 4"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 12" | "leitura 3"   | "Checkpoint 8"  | "leitura 4"   | "Checkpoint 7"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 5"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 11" | "leitura 3"   | "Checkpoint 10" | "leitura 4"   | "Checkpoint 9"  | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 6"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 10" | "leitura 3"   | "Checkpoint 12" | "leitura 4"   | "Checkpoint 11" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 7"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 9"  | "leitura 3"   | "Checkpoint 14" | "leitura 4"   | "Checkpoint 13" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 8"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 7"  | "leitura 3"   | "Checkpoint 1"  | "leitura 4"   | "Checkpoint 15" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 9"  | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 6"  | "leitura 3"   | "Checkpoint 15" | "leitura 4"   | "Checkpoint 14" | "leitura 5"   | "Checkpoint 15" |
+      | "marina.user4@testetrousseau.com" | "Checkpoint 10" | "Primeira Leitura" | "Marina"      | "leitura 2"   | "Checkpoint 5"  | "leitura 3"   | "Checkpoint 9"  | "leitura 4"   | "Checkpoint 12" | "leitura 5"   | "Checkpoint 15" |
 
 
   @user5
@@ -305,4 +315,26 @@ Scenario Outline: Fazer uma leitura com 5 mil itens em uma campanha de inventari
       |"marina.user15@testetrousseau.com" | "Checkpoint 15"    | "Decima Quinta Leitura"   | "Marina"                   | "leitura 2"        | "Checkpoint 6"  | "leitura 3"        | "Checkpoint 10"  | "leitura 4"     | "Checkpoint 14" | "leitura 5"   | "Checkpoint 12"   |
 
 
-
+@impressaoavulsatrousseau
+Scenario Outline: gerar varias imporessoes avulsa e baixar o csv
+  Given que o usuário faça o login no Rastro  com o usuario <usuario> e esteja no dashboard
+  When ir em impressoes e selecionar a aba Impressao Avulsa
+  And preencher as informacoes da impressao Avulsa  <SKU> <quantidade>
+  And fechar navegador
+  Examples:
+    | usuario                           | SKU              | quantidade |
+    | "marina.user1@testetrousseau.com" | "07908780808478" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808485" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808492" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808508" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808515" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808522" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808539" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808546" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808553" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808560" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808577" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808584" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808591" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808607" | "70"       |
+    | "marina.user1@testetrousseau.com" | "07908780808614" | "70"       |

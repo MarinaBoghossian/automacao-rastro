@@ -15,6 +15,7 @@ Scenario: Regressivo 1: passar por todas as telas de cadastros
   And cadastre uma etiqueta item
   And cadastre uma etiqueta agregacao
   And cadastre um checkpoint
+  And cadastre um SLA
   When todos os ites forem cadastrados
   Then fazer a conferencia se os cadastros estao retornando corretamente em suas respectivas listas
 
@@ -27,4 +28,3 @@ Scenario: Regressivo 2: passar por todas as telas de impressão
   And fazer uma impressao recode
   And fazer uma associacao Recode
   And fazer uma agregacao
-  And

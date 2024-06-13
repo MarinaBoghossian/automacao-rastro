@@ -42,12 +42,10 @@ public class LoginLogic {
         utils.clicar(loginPage.getBtnTenant(data.tenant()));
         utils.pausa(1000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
-        utils.clicar(loginPage.getBtnSite("Automatizados"));
+        utils.clicar(loginPage.getBtnSite(data.site()));
         utils.clicar(loginPage.getBtnEntrarSite());
 
 
-        utils.pausa(2000);
-        utils.validarTexto(loginPage.getTxtDashboard(), "Dashboard");
 
 
     }

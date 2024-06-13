@@ -25,7 +25,9 @@ public class CampanhaPage {
     private By campoNomeInventario = By.id("txt-name");
     private By campoObservacoes = By.id("txt-data");
     private By btnVoltar = By.xpath("//span[text()='Voltar']");
-    private By validacaoLeitura = By.xpath("//div[text()='Sucesso']");
+    private By validacaoLeitura = By.xpath("//b[text()='Sucesso']");
+    private By campoEnderecoEtiqueta = By.id("endereço");
+    private By campoCaixaEtiqueta = By.id("caixa");
     public By getBtnDetalheCampanha(String nomeCampanha) {
         return btnDetalheCampanha = By.xpath("//td[text()='" + nomeCampanha + "']//following::p-button[@styleclass='p-button-info']");
     }
@@ -108,5 +110,13 @@ public class CampanhaPage {
 
     public By getBtnVoltar() {
         return btnVoltar;
+    }
+
+    public By getCampoEnderecoEtiqueta() {
+        return campoEnderecoEtiqueta;
+    }
+
+    public By getCampoCaixaEtiqueta() {
+        return campoCaixaEtiqueta;
     }
 }

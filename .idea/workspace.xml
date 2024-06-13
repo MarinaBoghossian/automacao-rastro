@@ -5,74 +5,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b0f677-c0a3-4f44-9159-cbe784e15968" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rastreabilidade.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/PainelImpressoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/PainelImpressaoStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Inventario/CampanhaTesteTrousseauStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Feature/Regressivo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_01_2024_16_26__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSLALogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroSLAPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroSLASteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/RegressivoSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drive/..exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drive/..exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drive/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drive/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroLeitorLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroLeitorLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquivosUpload/Serialização.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ArquivosUpload/Serialização.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroProdutosLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSitesLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSpoolerLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroSpoolerLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroUsuarioLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Cadastros/CadastroUsuarioLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Checkpoint/RealizarCheckpointLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Checkpoint/RealizarCheckpointLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaEventoLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Consultas/ConsultaEventoLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoAvulsaLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoAvulsaLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/RedefinirSenhaLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/RedefinirSenhaLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroImpressorasPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroImpressorasPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroProdutosPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroSitesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Cadastros/CadastroSitesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Impressões/ImpressaoAvulsaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/ImpressaoAvulsaPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Inventario/CampanhaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Inventario/CampanhaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroImpressorasSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroImpressorasSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/RedefinirSenhaStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/RedefinirSenhaStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroSpoolerStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Cadastros/CadastroSpoolerStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Inventario/CampanhaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Inventario/CampanhaSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Inventario/CampanhaTesteTrousseauStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Inventario/CampanhaTesteTrousseauStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Runner.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Runner.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/CampanhaTrousseau.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/CampanhaTrousseau.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Regressivo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Regressivo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Cadastros/CadastroProdutosLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logic/Cadastros/CadastroProdutosLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Cadastros/CadastroSitesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logic/Cadastros/CadastroSitesLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Cadastros/CadastroSpoolerLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logic/Cadastros/CadastroSpoolerLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Consultas/ConsultaEventoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logic/Consultas/ConsultaEventoLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Impressões/ImpressaoAvulsaLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logic/Impressões/ImpressaoAvulsaLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logic/LoginLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/Cadastros/CadastroProdutosPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/Cadastros/CadastroProdutosPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/Cadastros/CadastroSitesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/Cadastros/CadastroSitesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/Impressões/ImpressaoAvulsaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/Impressões/ImpressaoAvulsaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/Inventario/CampanhaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/Inventario/CampanhaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/Cadastros/CadastroSpoolerStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Steps/Cadastros/CadastroSpoolerStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/Inventario/CampanhaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Steps/Inventario/CampanhaSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/Inventario/CampanhaTesteTrousseauStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Steps/Inventario/CampanhaTesteTrousseauStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/Data.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rastreabilidade-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rastreabilidade-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selenium-reports" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Runner.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Runner.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroLeitorLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroLeitorLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSpoolerLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSpoolerLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroUsuarioLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroUsuarioLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/RealizarCheckpointLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/RealizarCheckpointLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/RedefinirSenhaLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/RedefinirSenhaLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroImpressorasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroImpressorasPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroProdutosPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroProdutosPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroSitesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroSitesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Inventario/CampanhaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Inventario/CampanhaPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/RedefinirSenhaStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/RedefinirSenhaStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/CampanhaTrousseau.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/CampanhaTrousseau.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Regressivo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Regressivo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroCheckpointLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroEtiquetasLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroImpressorasLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroLeitorLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroPortalLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroProdutosLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSitesLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroSpoolerLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/CadastroUsuarioLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Cadastros/MenuCadastrosLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/MenuCheckpointLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Checkpoint/RealizarCheckpointLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaAgregaçãoLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaConferenciaDataLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaConferenciaLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaEPCLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaEventoLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaJobLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaLoteLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/ConsultaSerialLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Consultas/MenuConsultasLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/AssociacaoRecodeLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoAvulsaLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoEtiquetaAgregacaoLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressaoRecodeLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ImpressoesPendenteLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/JobsImpressaoLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/MenuImpressoesLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Impressões/ScanPrintLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Inventario/CampanhaLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/LoginLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/RedefinirSenhaLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroCheckpointPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroEtiquetasPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroImpressorasPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroLeitoresPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroPortalPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroProdutosPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroSitesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroSpoolerPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/CadastroUsuarioPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Cadastros/MenuCadastroPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Checkpoint/MenuCheckpointPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Checkpoint/RealizarCheckpointPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Conferencia/GestaoConferenciaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Conferencia/MenuConferenciaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Conferencia/RealizarConferenciaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaAgregaçãoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaConferenciaDataPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaConferenciaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaEPCPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaEventoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaJobPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaLotePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/ConsultaSerialPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Consultas/MenuConsultasPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/AssociacaoRecodePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/ImpressaoAvulsaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/ImpressaoEtiquetaAgregacaoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/ImpressaoRecodePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/ImpressoesPendentePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/JobsImpressaoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/MenuImpressoesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/PainelImpressoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Impressões/ScanPrintPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Inventario/CampanhaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/RedefinirSenhaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties$Browsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties$TipoExecucao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroCheckpointStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroEtiquetaAgregacaoStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroEtiquetaItemStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroImpressorasSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroLeitorStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroPortalStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroProdutosStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroSitesStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroSpoolerStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Cadastros/CadastroUsuarioStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Checkpoint/RealizarCheckpointStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaAgregaçãoStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaConferenciaDataStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaConferenciaStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaEPCStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaEventoStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaJobStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaLoteStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Consultas/ConsultaSerialStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/AssociacaoRecodeStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/ImpressaoAvulsaStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/ImpressaoRecodeStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/ImpressoaEtiquetaAgregacaoStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/ImpressoesPendenteStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/JobsImpressaoStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/PainelImpressaoStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Impressoes/ScanPrintStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Inventario/CampanhaSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Inventario/CampanhaTesteTrousseauStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/RedefinirSenhaStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
@@ -145,16 +230,24 @@
     &quot;Cucumber Java.Scenario: Criar campanha invetario com 10 mil itens - usuário 7.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Criar campanha invetario com 10 mil itens - usuário 8.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Criar campanha invetario com 10 mil itens - usuário 9.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Criar campanha invetario com 2 mil itens - usuário 3.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Criar campanha invetario com 5 mil itens - usuário 15.executor&quot;: &quot;Debug&quot;,
     &quot;Cucumber Java.Scenario: Criação de uma nova campanha de inventário.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Criação de uma nova campanha de inventárip.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Exclusão de produto.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 1 - @user1 - Example n°1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 2.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 1.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 2.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Impressão Avulsa.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Painel de impressão.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Regressivo 1: passar por todas as telas de cadastros.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Tentativa de cadastro de produto com dois itens do tipo texto com referências iguais.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: gerar varias imporessoes avulsa e baixar o csv - @impressaoav... - Example n°1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: gerar varias imporessoes avulsa e baixar o csv.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
     &quot;Maven.rastreabilidade [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -162,8 +255,10 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;cenarios-positivos&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marina.lessa/IdeaProjects/automation-tests&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marina.lessa/IdeaProjects/mt-backend&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -184,16 +279,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Impressora">
-    <configuration name="Scenario: Cadastro de Impressora" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Regressivo 1: passar por todas as telas de cadastros">
+    <configuration name="Scenario: Cadastro de site" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps.Cadastros" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Cadastro de Impressora$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Impressora$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Impressora" />
+      <option name="NAME_FILTER" value="^Cadastro de site$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de site$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de site" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -225,15 +320,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/CampanhaTrousseau.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente \- usuário 1$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente \- usuário 1$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 1" />
+      <option name="NAME_FILTER" value="^Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente \- usuário 1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente \- usuário 1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -245,15 +340,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Painel de impressão" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" />
-      <option name="GLUE" value="Steps.Impressoes" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/CampanhaTrousseau.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
-      <option name="NAME_FILTER" value="^Painel de impressão$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Painel de impressão$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Painel de impressão" />
+      <option name="NAME_FILTER" value="^Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente \- usuário 2$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente \- usuário 2$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 2" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -265,17 +360,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Regressivo 1: passar por todas as telas de cadastros" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Regressivo.feature" />
+      <option name="GLUE" value="Steps.Cadastros" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="rastreabilidade" />
+      <option name="NAME_FILTER" value="^Regressivo 1\: passar por todas as telas de cadastros$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Regressivo 1\: passar por todas as telas de cadastros$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Regressivo 1: passar por todas as telas de cadastros" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runner.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,18 +394,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Cadastro de Impressora" />
-      <item itemvalue="Cucumber Java.Scenario: Painel de impressão" />
+      <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
+      <item itemvalue="Cucumber Java.Scenario: Regressivo 1: passar por todas as telas de cadastros" />
       <item itemvalue="Cucumber Java.Scenario: Criação de uma nova campanha de inventário" />
-      <item itemvalue="Cucumber Java.Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 1" />
-      <item itemvalue="JUnit.Runner" />
+      <item itemvalue="Cucumber Java.Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 1" />
+      <item itemvalue="Cucumber Java.Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de Impressora" />
-        <item itemvalue="Cucumber Java.Scenario: Painel de impressão" />
-        <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: Fazer uma leitura com 5 mil itens em uma campanha de inventario já existente - usuário 1" />
+        <item itemvalue="Cucumber Java.Scenario: Regressivo 1: passar por todas as telas de cadastros" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
+        <item itemvalue="Cucumber Java.Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 1" />
+        <item itemvalue="Cucumber Java.Scenario: Fazer uma leitura com 2 mil itens em uma campanha de inventario já existente - usuário 2" />
         <item itemvalue="Cucumber Java.Scenario: Criação de uma nova campanha de inventário" />
       </list>
     </recent_temporary>
@@ -316,7 +416,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -331,10 +432,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711133323613</updated>
+      <workItem from="1718110204100" duration="78000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
+          <url>file://$PROJECT_DIR$/src/test/java/Steps/LoginStep.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

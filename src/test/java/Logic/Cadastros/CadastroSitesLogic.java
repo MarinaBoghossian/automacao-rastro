@@ -47,20 +47,22 @@ public class CadastroSitesLogic {
         WebDriver driver;
         utils.pausa(2000);
         utils.clicar(cadastroSitesPage.getBtnNovoSite());
+
+
         utils.pausa(2000);
         utils.preencher(cadastroSitesPage.getCampoNomeSite(), data.nomeNovoSite());
-        utils.pausa(500);
-        utils.preencher(cadastroSitesPage.getCampoCNPJ(), "555555555555");
+        utils.pausa(1000);
+        utils.clicar(cadastroSitesPage.getCampoCNPJ());
+        utils.preencher(cadastroSitesPage.getCampoCNPJ(), "55555555555555");
+        utils.pausa(1000);
         utils.clicar(cadastroSitesPage.getBtnSalvarSite());
-
-    }
-
+}
 
     public void validarCadastrSite() throws InterruptedException {
         WebDriver driver;
         utils.pausa(2000);
         utils.validarTexto(cadastroSitesPage.getTxtCadastroSite(), "O site foi cadastrado com sucesso!");
-        utils.fecharNavegador();
+        utils.clicar(cadastroSitesPage.getBtnOK());
 
 
     }

@@ -28,24 +28,14 @@ public class ImpressaoAvulsaLogic {
     public void novaImpressaoAvulsa()throws InterruptedException {
 
         utils.preencher(impressaoAvulsaPage.getCampoSKU(), "05602185700017");
-        utils.preencher(impressaoAvulsaPage.getCampoGTIN(), "05602185700017");
+
         utils.pausa(1000);
-        utils.preencher(impressaoAvulsaPage.getCampoDescricaoProduto(), "produto teste automacao");
-        utils.pausa(1000);
-        utils.clicar(impressaoAvulsaPage.getBtnBuscarDescricaoProduto());
+        utils.clicar(impressaoAvulsaPage.getBtnBuscarSKU());
         //a confirmação da descrição deve ser preenchida na ImpressaoAvulsaPage linha 14
         utils.pausa(1000);
-        utils.clicar(impressaoAvulsaPage.getCampoConfirmarDescricaoProduto());
+        utils.clicar(impressaoAvulsaPage.getConfirmarDadoDoProduto("05602185700017"));
         utils.clicar(impressaoAvulsaPage.getBtnOK());
         utils.pausa(1000);
-        //utils.preencher(impressaoAvulsaPage.getCampoCategoriaProduto(), "categoria teste automacao");
-        //utils.pausa(1000);
-        //utils.clicar(impressaoAvulsaPage.getBtnBuscarCategoriaProduto());
-        //utils.pausa(1000);
-        //a confirmação da categoria deve ser preenchida na ImpressaoAvulsaPage linha 16
-       // utils.clicar(impressaoAvulsaPage.getCampoConfirmarCategoriaProduto());
-        //utils.clicar(impressaoAvulsaPage.getBtnOK());
-       // utils.pausa(1000);
         utils.clicar(impressaoAvulsaPage.getBtnProximo());
         utils.pausa(1000);
         utils.clicar(impressaoAvulsaPage.getBtnProximo());
@@ -60,12 +50,10 @@ public class ImpressaoAvulsaLogic {
         utils.pausa(1000);
         utils.clicar(impressaoAvulsaPage.getBtnProximo());
         utils.clicar(impressaoAvulsaPage.getCampoSelecionarEtiqueta());
-        //o nome da etiqueta deve ser preenchido na ImpressaoAvulsaPage linha 25
-        utils.clicar(impressaoAvulsaPage.getCampoNomeEtiqueta());
+        utils.clicar(impressaoAvulsaPage.getCampoNomeEtiqueta("SEM LOGO / SEM TAG"));
         utils.pausa(1000);
         utils.clicar(impressaoAvulsaPage.getCampoSelecionarImpressora());
-        //o nome da impressora deve ser preenchido na ImpressaoAvulsaPage linha 28
-        utils.clicar(impressaoAvulsaPage.getCampoNomeImpressora());
+        utils.clicar(impressaoAvulsaPage.getCampoNomeImpressora("Trousseau TESTE"));
         utils.pausa(1000);
         utils.preencher(impressaoAvulsaPage.getCampoQuantidadeImpressao(), "50");
         utils.clicar(impressaoAvulsaPage.getBtnProximo());

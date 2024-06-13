@@ -26,7 +26,7 @@ public class CadastroSpoolerLogic {
         utils.clicar(cadastroSpoolerPage.getSubMenuSpooler());
     }
 
-    public void cadastroNovoLeitor() throws InterruptedException {
+    public void cadastroNovoSpooler() throws InterruptedException {
         WebDriver driver;
         utils.pausa(2000);
         utils.clicar(cadastroSpoolerPage.getBtnNovoSpooler());

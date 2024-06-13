@@ -4,7 +4,7 @@ public class Data {
 
         //login
         public String usuario(){
-                String usuario = "Mariana@rb.com";
+                String usuario = "marina.lessa@rastreabilidadebrasil.com.br";
                 return usuario;
         }
         public String senha(){
@@ -30,11 +30,11 @@ public class Data {
         }
 
         public String tenant(){
-            String tenant = "Tenant - Automatizados";
+            String tenant = "Trousseau";
             return tenant;
         }
     public String site(){
-        String site = "Automatizados";
+        String site = "Automação de Testes";
         return site;
     }
 

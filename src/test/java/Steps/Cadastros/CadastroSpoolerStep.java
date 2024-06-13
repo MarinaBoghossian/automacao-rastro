@@ -18,7 +18,7 @@ public class CadastroSpoolerStep {
     }
     @When("clicar em novo e inserir as informaçoes do novo Spooler")
     public void clicar_em_novo_e_inserir_as_informaçoes_do_novo_spooler() throws InterruptedException {
-        cadastroSpoolerLogic.cadastroNovoLeitor();
+        cadastroSpoolerLogic.cadastroNovoSpooler();
 
 
     }

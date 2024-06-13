@@ -65,7 +65,7 @@ public class CadastroProdutosLogic {
 
         utils.pausa(1000);
         utils.clicar(loginPage.getBtnEscolhaUmSite());
-        utils.clicar(loginPage.getBtnSite("Automatizados"));
+        utils.clicar(loginPage.getBtnSite(data.site()));
         utils.clicar(loginPage.getBtnEntrarSite());
 
 
@@ -90,7 +90,7 @@ public class CadastroProdutosLogic {
 
     public void cadastrarNovoProdutoGS1() throws InterruptedException {
         WebDriver driver;
-        utils.pausa(2000);
+        utils.pausa(5000);
         utils.clicar(cadastroProdutosPage.getBtnNovoProduto());
         utils.pausa(2000);
         utils.preencher(cadastroProdutosPage.getCampoSKU(), data.SKU());
@@ -104,11 +104,12 @@ public class CadastroProdutosLogic {
         WebDriver driver;
         utils.pausa(2000);
         utils.clicar(cadastroProdutosPage.getBtnNovoProduto());
-        utils.pausa(2000);
+        utils.pausa(5000);
         utils.preencher(cadastroProdutosPage.getCampoSKU(), data.SKU());
         utils.preencher(cadastroProdutosPage.getCampoDescricao(), data.descricao());
         utils.preencher(cadastroProdutosPage.getCampoCategoria(), data.categoria());
         utils.clicar(cadastroProdutosPage.getBtnSalvar());
+
     }
 
 

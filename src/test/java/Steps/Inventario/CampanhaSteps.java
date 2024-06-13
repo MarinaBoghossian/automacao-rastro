@@ -1,14 +1,17 @@
 package Steps.Inventario;
 
 import Logic.Inventario.CampanhaLogic;
+import Utils.Utils;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CampanhaSteps {
     CampanhaLogic campanhaLogic = new CampanhaLogic();
+    Utils u = new Utils();
 
     @When("ir em inventario e selecionar o submenu campanha")
     public void ir_em_inventario_e_selecionar_o_submenu_campanha() throws InterruptedException {
+        u.pausa(2000);
         campanhaLogic.menuInventario();
         campanhaLogic.subMeuCampanha();
 
