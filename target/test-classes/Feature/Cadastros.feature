@@ -164,7 +164,7 @@ Feature: Cadastros no Rastro app
     When ele incluir novamente o produto com os mesmos dados do anterior
     Then o produto devera ser cadastrado com sucesso e ser exibido na lista
 
-  @excluirproduto
+  @excluirprodutonotadmin
   Scenario: Negativo - Exclusão de produto com usuario not-admin
     Given que um usuário not-admin faça login acesse um produto cadastrado
     When o usuário tentar excluir o produto

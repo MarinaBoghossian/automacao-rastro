@@ -14,7 +14,6 @@ import Utils.Data;
 public class CadastroSitesLogic {
 
 
-
     Utils utils = new Utils();
     Data data = new Data();
 
